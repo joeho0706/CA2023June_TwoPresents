@@ -1,0 +1,51 @@
+h1,
+h4 {
+  color: #666666;
+  font-size: 36px;
+  font-family: Cambay;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 1px;
+  word-wrap: "break-word";
+  text-align: center;
+  padding: 50px;
+}
+
+.img-thumbnail {
+  border: 0px;
+}
+
+.btn {
+  display: block;
+  margin: auto;
+}
+
+.btn-section {
+  margin: 100px;
+}
+
+.quote {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  width: 75vw;
+  margin: auto;
+  padding: 3%;
+}
+
+.writer {
+  border-radius: 10px;
+  width: 50vw;
+  margin: auto;
+  text-align: center;
+}
+
+.writer-photo {
+  margin: 30px;
+}
+
+.subscribe {
+  background-color: #f7f7f7;
+  width: 75vw;
+  margin: auto;
+  padding: 3%;
+}
