@@ -1,0 +1,102 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+h1,
+h4,
+h5 {
+  color: #666666;
+  /* font-size: 36px; */
+  font-family: Cambay;
+  font-weight: 700;
+  /* line-height: 43px; */
+  /* letter-spacing: 1px; */
+  word-wrap: "break-word";
+  text-align: center;
+  padding: 50px;
+}
+
+.img-thumbnail {
+  border: 5px;
+}
+
+.btn {
+  display: block;
+  margin: auto;
+}
+
+.btn-section {
+  margin: 5%;
+}
+
+.quote {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  width: 75vw;
+  margin: auto;
+  padding: 3%;
+}
+
+.writer {
+  border-radius: 10px;
+  width: 50vw;
+  margin: auto;
+  text-align: center;
+}
+
+.writer-photo {
+  margin: 30px;
+}
+
+.subscribe {
+  background-color: #f7f7f7;
+  width: 60vw;
+  margin: auto;
+  padding: 3%;
+}
+
+.feature {
+  margin: auto;
+  padding: 5%;
+  width: 70vw;
+}
+
+footer {
+  background-color: #676665;
+  left: 0;
+  margin-top: 5%;
+  width: 100vw;
+  padding: 1%;
+}
+
+footer p,
+a {
+  color: white;
+  text-decoration: none;
+}
+
+footer h6 {
+  color: white;
+}
+
+.copyright {
+  text-align: center;
+  margin: 2%;
+}
+
+.sponsor {
+  background-color: white;
+  border-radius: 10px;
+  width: 70vw;
+}
+
+.support-us {
+  margin-top: 10%;
+}
+
+.support-us .btn {
+  float: left;
+}
