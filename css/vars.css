@@ -2,8 +2,22 @@
 :root {
   /* Colors */
   --body-color: #666666;
-  --brand-color: #e0156a;
   --heading: #666666;
+
+  --brand-color: #e0156a;
+  --sub-nav-btn-hover: #e85593;
+
+  --secondary-sub-nav-btn: #4d4d4d;
+  --secondary-sub-nav-btn-hover: #222222;
+
+  --primary-content-bg: #f9f9f9;
+  --secondary-content-bg: #ffffff;
+
+  --main-menu-nav: #000000;
+  --second-lv-category-nav: #666666;
+  --third-lv-nav-unselected: #b3b3b3;
+  --body-text: #999999;
+  --progess-body-text: #39b54a;
 
   /* Fonts */
   --headline: 700 48px/58px "Cambay", sans-serif;

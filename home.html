@@ -9,7 +9,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <style>
+    <!-- <style>
       a,
       button,
       input,
@@ -27,41 +27,465 @@
         appearance: none;
         background: none;
       }
-    </style>
+    </style> -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/vars.css" />
     <title>TwoPresents</title>
   </head>
   <body>
-    <div class="homepage-design">
-      <div class="frame-79"></div>
-      <div class="hero">
-        <div class="hero-image">
+    <div class="container-md p-0 m-auto" id="homepage-design">
+      <div class="container-fluid" id="frame-79">
+        <!-- navigation bar -->
+        <nav class="navbar navbar-expand-lg" id="nav-bar">
+          <div class="container-fluid p-0" id="frame-1">
+            <a class="navbar-brand p-0 m-0" href="#">
+              <img id="tp-logo-3" src="src/img/tp-logo-3.png" alt="Your Logo" />
+            </a>
+            <button
+              class="navbar-toggler me-4"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="true"
+              aria-label="Toggle navigation"
+            >
+              <img src="/src/img/mdi_menu.svg" />
+            </button>
+            <div
+              class="navbar-collapse collapse mt-3 mt-lg-0 mb-4 mb-lg-0"
+              id="navbarNav"
+            >
+              <ul
+                class="navbar-nav align-items-center mt-3 mt-lg-0 ms-lg-auto gap-4 gap-lg-5"
+                id="auto-layout-horizontal2"
+              >
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-center main-nav"
+                    href="#"
+                    id="how-it-works3"
+                    >How It Works</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-center main-nav" href="#" id="cards"
+                    >Cards</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-center main-nav"
+                    href="#"
+                    id="charities"
+                    >Charities</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-center main-nav"
+                    href="#"
+                    id="gift-ideas"
+                    >Gift Ideas</a
+                  >
+                </li>
+              </ul>
+              <div class="d-flex border mt-4 mb-4"></div>
+
+              <ul
+                class="navbar-nav align-items-center ms-lg-auto gap-4 gap-lg-3"
+              >
+                <li class="nav-item">
+                  <a class="nav-link text-center fields" href="#" id="log-in"
+                    >Log In</a
+                  >
+                </li>
+                <button class="primary-button fields" id="get-started">
+                  GET STARTED
+                </button>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- hero section -->
+      <div
+        class="row text-center align-items-center mt-3 gap-3 gap-lg-5"
+        id="hero"
+      >
+        <div class="col-lg p-0" id="hero-image">
           <img
-            class="whats-app-image-2023-07-26-at-11-03-1"
+            class="img-fluid rounded-4"
+            id="whats-app-image-2023-07-26-at-11-03-1"
             src="src/img/whats-app-image-2023-07-26-at-11-03-1.png"
           />
         </div>
-        <div class="hero-message">
-          <div class="auto-layout-vertical">
-            <div class="auto-layout-vertical2">
-              <div class="one-for-you-one-for-charity">
+        <div
+          class="col-lg d-flex flex-column row-gap-4 m-0 p-0 align-items-center align-items-lg-start text-lg-start"
+          id="hero-message"
+        >
+          <div class="p-0 m-0" id="auto-layout-vertical">
+            <div id="auto-layout-vertical2">
+              <div class="headline" id="one-for-you-one-for-charity">
                 One for you<br />One for charity
               </div>
             </div>
-            <div
-              class="combine-event-invitations-with-charitable-giving-share-joy-with-charities-you-love"
+            <h3
+              id="combine-event-invitations-with-charitable-giving-share-joy-with-charities-you-love"
             >
               Combine event invitations with charitable giving. <br />Share joy
               with charities you love.
-            </div>
+            </h3>
           </div>
-          <div class="button">
-            <div class="get-started">GET STARTED</div>
+
+          <button class="cta-button fields" id="get-started">
+            GET STARTED
+          </button>
+        </div>
+      </div>
+      <!-- main section1 -->
+      <div class="container-fluid p-0 text-center my-5" id="how-it-works">
+        <div id="frame-3">
+          <h1 id="how-it-works2">How It Works</h1>
+        </div>
+        <div
+          class="d-flex flex-column flex-lg-row justify-content-center align-items-center align-items-lg-start gap-5"
+          id="frame-7"
+        >
+          <div class="d-flex flex-column text-center p-0" id="frame-4">
+            <div id="frame-31">
+              <div class="d-inline-flex align-items-center gap-2" id="frame-65">
+                <div class="fields" id="steps">
+                  <img src="src/img/Ellipse 162.svg" id="ellipse-162" />
+                  <div id="_1">1</div>
+                </div>
+                <img id="send-invite-1" src="src/img/send-invite-1.png" />
+              </div>
+            </div>
+            <h2 id="invite">Invite</h2>
+            <h4 id="create-your-invitation-and-share-with-guests">
+              Create your invitation and share with guests
+            </h4>
+          </div>
+          <div class="d-flex flex-column text-center p-0" id="frame-6">
+            <div id="frame-32">
+              <div class="d-inline-flex align-items-center gap-2" id="frame-66">
+                <div class="fields" id="steps">
+                  <img src="src/img/Ellipse 162.svg" id="ellipse-162" />
+                  <div id="_2">2</div>
+                </div>
+                <img id="collect-money-1" src="src/img/collect-money-1.png" />
+              </div>
+            </div>
+            <h2 id="collect">Collect</h2>
+            <h4
+              id="guests-can-contribute-money-into-a-gift-fund-instead-of-bringing-individual-gifts"
+            >
+              Guests can contribute money into a gift fund instead of bringing
+              individual gifts
+            </h4>
+          </div>
+          <div class="d-flex flex-column text-center p-0" id="frame-5">
+            <div id="frame-33">
+              <div class="d-inline-flex align-items-center gap-2" id="frame-67">
+                <div class="fields" id="steps">
+                  <img src="src/img/Ellipse 162.svg" id="ellipse-162" />
+                  <div id="_3">3</div>
+                </div>
+                <img id="share-the-joy-1" src="src/img/share-the-joy-1.png" />
+              </div>
+            </div>
+            <h2 id="share">Share</h2>
+            <h4
+              id="we-split-the-funds-one-part-is-for-your-gift-the-other-for-your-charity"
+            >
+              We split the funds: one part is for your gift, the other for your
+              charity
+            </h4>
+            <div class="fields" id="text-link">
+              <div id="see-the-demo">
+                <a href="https://www.youtube.com/watch?v=WNmFPvqHd-8"
+                  >See the Demo</a
+                >
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="charities-list">
+      <!-- main seciton2 -->
+      <div class="d-flex flex-column text-center my-5" id="missions">
+        <h1 class="mb-lg-5" id="our-missions">Our Missions</h1>
+        <div
+          class="d-flex flex-column flex-xl-row justify-content-center align-items-center gap-5"
+          id="frame-75"
+        >
+          <div class="d-flex flex-column p-0 m-0 row-gap-3" id="frame-72">
+            <img id="rectangle-658" src="src/img/rectangle-658.png" />
+            <h3 id="get-your-dream-gift-from-all-your-friends">
+              Get your dream gift from all your friends
+            </h3>
+          </div>
+          <div class="d-flex flex-column p-0 m-0 row-gap-3" id="frame-73">
+            <img id="rectangle-659" src="src/img/rectangle-659.png" />
+            <h3 id="give-back-to-charity-and-support-people-in-need">
+              Give back to charity and support people in need
+            </h3>
+          </div>
+          <div
+            class="d-flex flex-column p-0 m-0 row-gap-3 overflow-hidden"
+            id="frame-74"
+          >
+            <div id="mask-group2">
+              <img
+                id="whats-app-image-2023-09-01-at-12-42-1"
+                src="src/img/whats-app-image-2023-09-01-at-12-42-1.png"
+              />
+            </div>
+            <h3 id="save-the-environment-and-reduce-gift-waste">
+              Save the environment and reduce gift waste
+            </h3>
+          </div>
+        </div>
+      </div>
+
+      <!-- main section3 -->
+      <div class="d-flex flex-column text-center" id="occasions">
+        <h1 class="mb-lg-5" id="twopresents-for-any-occasion">
+          Twopresents for Any Occasion
+        </h1>
+        <div
+          class="d-flex flex-column flex-xl-row justify-content-center align-items-center align-items-xl-start gap-4"
+          id="frame-70"
+        >
+          <div class="d-flex flex-column p-0 m-0 row-gap-3" id="frame-68">
+            <div class="container">
+              <img id="rectangle-662-1" src="src/img/rectangle-662-1.png" />
+            </div>
+            <h3 id="baby-shower">Baby Shower</h3>
+          </div>
+          <div class="d-flex flex-column p-0 m-0 row-gap-3" id="frame-69">
+            <div class="container">
+              <img id="rectangle-662-2" src="src/img/rectangle-662-2.png" />
+            </div>
+            <h3 id="kids-grown-up-birthdays">Kids &amp; Grown Up Birthdays</h3>
+          </div>
+          <div class="d-flex flex-column p-0 m-0 row-gap-3" id="frame-702">
+            <div class="container">
+              <img id="rectangle-662-3" src="src/img/rectangle-662-3.png" />
+            </div>
+            <h3 id="leaving-parties">Leaving Parties</h3>
+          </div>
+          <div class="d-flex flex-column p-0 m-0 row-gap-3" id="frame-71">
+            <div class="container">
+              <img id="rectangle-662" src="src/img/rectangle-662.png" />
+            </div>
+            <h3 id="weddings">Weddings</h3>
+          </div>
+        </div>
+      </div>
+      <!-- impact section -->
+      <div class="container-fluid p-0" id="impact">
+        <div class="d-flex flex-column text-center m-auto" id="frame-57">
+          <h1>Our Impact</h1>
+          <div class="d-flex flex-column d-lg-block" id="impact-grids">
+            <div
+              class="card d-inline-flex float-start overflow-hidden order-0 justify-content-center p-0 mb-3 mb-lg-4"
+              id="users"
+            >
+              <div
+                class="d-flex flex-column p-0 justify-content-center align-items-center"
+                id="rectangle-654"
+              >
+                <div class="card-title d-none" id="users2">
+                  <div
+                    id="_20-30-80-600-800-2-000-5-000-8-000-12-000-13-000-14-000-16-000-18-000-19-000-20-000"
+                  >
+                    20<br />30<br />80<br />600<br />800<br />2,000<br />5,000<br />8,000<br />12,000<br />13,000<br />14,000<br />16,000<br />18,000<br />19,000<br />20,000
+                  </div>
+                </div>
+                <div class="card-title" id="users3">
+                  <span
+                    ><span id="users-3-span">+</span
+                    ><span id="users-3-span2"> Users</span></span
+                  >
+                </div>
+                <div class="card-img" id="component-1">
+                  <div class="d-flex" id="frame-53">
+                    <img
+                      id="_1-mtwopresents-hong-kong-dog-hker-t-rescue-1"
+                      src="src/img/_1-mtwopresents-hong-kong-dog-hker-t-rescue-1.png"
+                    /><img
+                      id="_20-facebook-1"
+                      src="src/img/_20-facebook-1.png"
+                    /><img
+                      id="_350963269-3478517989072821-8810605381961366536-n-800-800-1"
+                      src="src/img/_350963269-3478517989072821-8810605381961366536-n-800-800-1.png"
+                    /><img id="_1-1" src="src/img/_1-1.png" /><img
+                      id="no-photo-description-available"
+                      src="src/img/no-photo-description-available.png"
+                    /><img
+                      id="_20-facebook-1"
+                      src="src/img/_20-facebook-1.png"
+                    /><img
+                      id="_20-facebook"
+                      src="src/img/_20-facebook.png"
+                    /><img
+                      id="_20-facebook-1"
+                      src="src/img/_20-facebook-1.png"
+                    /><img
+                      id="no-photo-description-available"
+                      src="src/img/no-photo-description-available.png"
+                    /><img
+                      id="may-be-an-image-of-text-that-says-seas-mtwopresents"
+                      src="src/img/may-be-an-image-of-text-that-says-seas-mtwopresents.png"
+                    /><img
+                      id="_20-facebook-2"
+                      src="src/img/_20-facebook-2.png"
+                    /><img
+                      id="_20-facebook"
+                      src="src/img/_20-facebook.png"
+                    /><img
+                      id="_1-mtwopresents-hong-kong-dog-hker-t-rescue-1"
+                      src="src/img/_1-mtwopresents-hong-kong-dog-hker-t-rescue-1.png"
+                    /><img
+                      id="_20-facebook-2"
+                      src="src/img/_20-facebook-2.png"
+                    /><img
+                      id="_350963269-3478517989072821-8810605381961366536-n-800-800-2"
+                      src="src/img/_350963269-3478517989072821-8810605381961366536-n-800-800-2.png"
+                    /><img id="_1-2" src="src/img/_1-2.png" /><img
+                      id="no-photo-description-available"
+                      src="src/img/no-photo-description-available.png"
+                    /><img
+                      id="_20-facebook-1"
+                      src="src/img/_20-facebook-1.png"
+                    /><img
+                      id="_20-facebook"
+                      src="src/img/_20-facebook.png"
+                    /><img
+                      id="_20-facebook-1"
+                      src="src/img/_20-facebook-1.png"
+                    /><img
+                      id="no-photo-description-available"
+                      src="src/img/no-photo-description-available.png"
+                    /><img
+                      id="may-be-an-image-of-text-that-says-seas-mtwopresents"
+                      src="src/img/may-be-an-image-of-text-that-says-seas-mtwopresents.png"
+                    /><img
+                      id="_20-facebook-2"
+                      src="src/img/_20-facebook-2.png"
+                    /><img id="_20-facebook" src="src/img/_20-facebook.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card d-inline-flex float-start overflow-hidden order-2 justify-content-start p-0 mb-3 mb-lg-4"
+              id="fund"
+            >
+              <div class="card-img p-0" id="group-39476">
+                <svg
+                  class="img-fluid"
+                  id="material-symbols-volunteer-activism-outline-rounded"
+                  width="223"
+                  height="223"
+                  viewBox="0 0 223 223"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    opacity="0.1"
+                    d="M139.375 116.179C138.291 116.179 137.244 116.024 136.234 115.714C135.225 115.405 134.336 114.863 133.568 114.088C120.25 102.009 108.595 90.3544 98.6032 79.1239C88.6115 67.8933 83.6188 57.403 83.625 47.653C83.625 38.9808 86.5674 31.7023 92.4521 25.8176C98.3368 19.9328 105.615 16.9905 114.288 16.9905C119.243 16.9905 123.889 18.0373 128.225 20.1311C132.561 22.2248 136.278 25.0495 139.375 28.6051C142.472 25.0433 146.189 22.2186 150.525 20.1311C154.861 18.0435 159.507 16.9967 164.463 16.9905C173.135 16.9905 180.413 19.9328 186.298 25.8176C192.183 31.7023 195.125 38.9808 195.125 47.653C195.125 57.4092 190.129 67.9026 180.138 79.1332C170.146 90.3637 158.494 102.015 145.182 114.088C144.408 114.863 143.516 115.405 142.506 115.714C141.497 116.024 140.453 116.179 139.375 116.179ZM139.375 94.1113C148.512 85.4391 156.992 76.804 164.816 68.2062C172.639 59.6083 176.548 52.7572 176.542 47.653C176.542 44.0912 175.417 41.1891 173.169 38.9467C170.92 36.7043 168.018 35.58 164.463 35.5738C162.294 35.5738 160.241 36.0012 158.302 36.8561C156.363 37.7109 154.7 38.987 153.313 40.6842L139.375 57.4092L125.438 40.6842C124.044 38.9808 122.381 37.7016 120.448 36.8468C118.515 35.9919 116.462 35.5676 114.288 35.5738C110.726 35.5738 107.821 36.6981 105.572 38.9467C103.323 41.1953 102.202 44.0974 102.208 47.653C102.208 52.7634 106.12 59.6176 113.944 68.2154C121.767 76.8133 130.244 85.4453 139.375 94.1113ZM120.327 187.957L175.613 170.768C174.838 169.374 173.714 168.172 172.24 167.162C170.765 166.153 169.102 165.651 167.25 165.657H120.327C116.146 165.657 112.816 165.502 110.339 165.193C107.861 164.883 105.306 164.263 102.673 163.334L89.4323 158.921C86.9545 158.146 85.1736 156.598 84.0896 154.275C83.0056 151.952 82.8507 149.552 83.625 147.074C84.3993 144.596 85.9108 142.775 88.1594 141.61C90.4079 140.446 92.768 140.254 95.2396 141.034L104.996 144.286C107.628 145.061 110.611 145.68 113.944 146.145C117.276 146.609 121.804 146.919 127.528 147.074H130.083C130.083 145.37 129.582 143.744 128.578 142.196C127.575 140.647 126.373 139.64 124.973 139.176L70.6167 119.199H55.75V170.303L120.327 187.957ZM115.449 206.076L55.75 189.351C54.5111 193.377 52.0705 196.629 48.4282 199.107C44.7859 201.585 41.032 202.824 37.1667 202.824H18.5833C13.4729 202.824 9.09656 201.003 5.45422 197.36C1.81189 193.718 -0.00617867 189.345 1.57753e-05 184.241V119.199C1.57753e-05 114.088 1.82118 109.712 5.46352 106.07C9.10585 102.427 13.4791 100.609 18.5833 100.615H70.6167C71.7007 100.615 72.7847 100.733 73.8688 100.969C74.9528 101.204 75.9594 101.473 76.8886 101.777L131.477 121.986C136.588 123.845 140.732 127.097 143.909 131.743C147.087 136.388 148.673 141.499 148.667 147.074H167.25C174.993 147.074 181.575 149.629 186.995 154.739C192.415 159.85 195.125 166.586 195.125 174.949C195.125 178.356 194.233 181.029 192.449 182.968C190.665 184.906 187.918 186.492 184.207 187.725L126.134 205.844C124.431 206.463 122.65 206.773 120.792 206.773C118.933 206.773 117.152 206.541 115.449 206.076ZM18.5833 184.241H37.1667V119.199H18.5833V184.241Z"
+                    fill="#E0156A"
+                  />
+                </svg>
+              </div>
+              <div
+                class="card-img-overlay d-flex flex-column p-0 justify-content-center align-items-center"
+                id="rectangle-655"
+              >
+                <div class="card-title" id="hk-20-million-raised">
+                  <span
+                    ><span id="hk-20-million-raised-span">HK$20+ million</span
+                    ><span id="hk-20-million-raised-span2"> Raised</span></span
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="card d-inline-flex float-none overflow-hidden order-1 justify-content-start p-0 mb-3 ms-lg-3 mb-lg-4"
+              id="campaign"
+            >
+              <div class="card-img p-0" id="group-39478">
+                <svg
+                  class="img-fluid"
+                  id="material-symbols-campaign-outline"
+                  width="255"
+                  height="255"
+                  viewBox="0 0 255 255"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    opacity="0.1"
+                    d="M207.643 136.911V115.661H250.143V136.911H207.643ZM220.393 211.286L186.393 185.786L199.143 168.786L233.143 194.286L220.393 211.286ZM199.143 83.7858L186.393 66.7858L220.393 41.2858L233.143 58.2858L199.143 83.7858ZM69.5181 236.179V158.161H58.8931C53.0493 158.161 48.045 156.078 43.88 151.913C39.715 147.748 37.636 142.747 37.6431 136.911V115.661C37.6431 109.817 39.7256 104.813 43.8906 100.648C48.0556 96.4826 53.0564 94.4037 58.8931 94.4108H101.393L154.518 62.5358V190.036L101.393 158.161H90.7681V236.179H69.5181ZM165.143 161.88V90.692C169.924 94.942 173.778 100.123 176.703 106.236C179.629 112.349 181.088 119.032 181.081 126.286C181.081 133.546 179.618 140.233 176.692 146.346C173.767 152.459 169.917 157.637 165.143 161.88ZM58.8931 115.661V136.911H107.237L133.268 152.317V100.255L107.237 115.661H58.8931Z"
+                    fill="#E0156A"
+                  />
+                </svg>
+              </div>
+              <div
+                class="card-img-overlay d-flex flex-column p-0 justify-content-center align-items-center"
+                id="rectangle-656"
+              >
+                <div class="card-title" id="_50-campaigns">
+                  <span
+                    ><span id="_50-campaigns-span">50+</span
+                    ><span id="_50-campaigns-span2">
+                      <br />Campaigns</span
+                    ></span
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="card d-inline-flex float-none overflow-hidden order-3 justify-content-start p-0 mb-3 ms-lg-3 mb-lg-4"
+              id="earth"
+            >
+              <div class="card-img p-0" id="group-39477">
+                <svg
+                  class="img-fluid"
+                  id="ion-earth"
+                  width="210"
+                  height="210"
+                  viewBox="0 0 210 210"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    opacity="0.2"
+                    d="M169.965 40.0888C161.449 31.4885 151.317 24.6556 140.152 19.9826C128.988 15.3096 117.01 12.8887 104.906 12.8589C92.8031 12.8291 80.8133 15.1911 69.6256 19.809C58.438 24.427 48.273 31.2099 39.7147 39.7682C31.1564 48.3265 24.3735 58.4914 19.7555 69.6791C15.1376 80.8667 12.7757 92.8566 12.8055 104.96C12.8352 117.063 15.2562 129.041 19.9291 140.206C24.6021 151.371 31.435 161.502 40.0353 170.018C48.5514 178.618 58.6828 185.451 69.8476 190.124C81.0124 194.797 92.9904 197.218 105.094 197.248C117.197 197.278 129.187 194.916 140.374 190.298C151.562 185.68 161.727 178.897 170.285 170.339C178.844 161.78 185.626 151.615 190.244 140.428C194.862 129.24 197.224 117.25 197.194 105.147C197.165 93.0439 194.744 81.0658 190.071 69.9011C185.398 58.7363 178.565 48.6048 169.965 40.0888ZM26.25 105.053C26.247 98.0837 27.1711 91.1445 28.998 84.4185C32.0086 90.8989 36.3808 96.4976 39.3545 103.146C43.1976 111.694 53.5172 109.323 58.074 116.813C62.1181 123.461 57.7992 131.869 60.8261 138.826C63.0246 143.875 68.209 144.978 71.7855 148.669C75.44 152.394 75.3621 157.496 75.9199 162.352C76.5493 168.058 77.5703 173.714 78.9756 179.279C78.9756 179.32 78.9756 179.366 79.0084 179.407C48.3164 168.628 26.25 139.371 26.25 105.053ZM105 183.803C100.602 183.802 96.2119 183.434 91.875 182.704C91.9201 181.593 91.9406 180.555 92.0513 179.833C93.048 173.312 96.3129 166.934 100.718 162.053C105.07 157.238 111.033 153.981 114.708 148.518C118.31 143.186 119.388 136.008 117.903 129.778C115.717 120.574 103.212 117.502 96.4687 112.51C92.5927 109.639 89.1433 105.201 84.0533 104.84C81.7072 104.676 79.7425 105.181 77.417 104.582C75.2841 104.028 73.6107 102.88 71.3384 103.179C67.0933 103.737 64.415 108.273 59.8541 107.658C55.5269 107.08 51.0685 102.014 50.0841 97.8921C48.8209 92.5929 53.0127 90.8743 57.5039 90.4027C59.3783 90.2058 61.4824 89.9925 63.283 90.6816C65.6537 91.5593 66.7734 93.8808 68.9021 95.0538C72.8929 97.2441 73.7009 93.7454 73.0898 90.2017C72.1752 84.8943 71.1088 82.7327 75.842 79.0782C79.1232 76.5599 81.9287 74.7388 81.4037 70.2148C81.092 67.5569 79.6359 66.3552 80.9935 63.7097C82.023 61.6958 84.849 59.8788 86.6906 58.6771C91.4443 55.5763 107.055 55.806 100.677 47.1271C98.8025 44.58 95.3449 40.0273 92.0636 39.4038C87.9621 38.6286 86.141 43.206 83.2822 45.2239C80.3291 47.3116 74.5787 49.6823 71.6215 46.4544C67.6429 42.1109 74.2588 40.6876 75.723 37.6525C76.3998 36.2374 75.723 34.2728 74.5828 32.423C76.0621 31.7995 77.566 31.2212 79.0945 30.688C80.0524 31.3955 81.1888 31.8217 82.3757 31.9185C85.1197 32.0989 87.7078 30.6142 90.1031 32.4845C92.7609 34.5353 94.6763 37.1275 98.2037 37.7673C101.616 38.3866 105.23 36.3974 106.075 32.9028C106.587 30.7782 106.075 28.5347 105.582 26.3403C120.922 26.4286 135.898 31.0226 148.649 39.5515C147.829 39.2398 146.848 39.2767 145.638 39.8386C143.149 40.9952 139.621 43.9402 139.33 46.8605C138.998 50.1745 143.887 50.6421 146.208 50.6421C149.695 50.6421 153.226 49.0835 152.102 45.0558C151.614 43.3085 150.95 41.4915 149.879 40.3923C152.453 42.178 154.918 44.1146 157.262 46.1919C157.225 46.2288 157.188 46.2616 157.151 46.3027C154.789 48.7636 152.045 50.7118 150.429 53.706C149.289 55.8142 148.005 56.815 145.696 57.3605C144.424 57.6599 142.972 57.7706 141.906 58.6237C138.936 60.9616 140.626 66.5808 143.44 68.2665C146.996 70.3952 152.27 69.3945 154.953 66.3552C157.049 63.9763 158.283 59.846 162.053 59.8501C163.712 59.8467 165.306 60.4964 166.491 61.6589C168.049 63.2749 167.742 64.7843 168.074 66.8023C168.66 70.387 171.823 68.4429 173.746 66.6341C175.148 69.1296 176.414 71.6996 177.536 74.3327C175.42 77.3802 173.738 80.7025 168.648 77.1505C165.601 75.0218 163.726 71.9333 159.899 70.9735C156.557 70.1532 153.132 71.0064 149.83 71.5765C146.077 72.2286 141.627 72.5157 138.78 75.3581C136.028 78.098 134.572 81.7648 131.644 84.5169C125.979 89.8489 123.588 95.6691 127.255 103.208C130.782 110.455 138.161 114.389 146.122 113.872C153.944 113.351 162.069 108.815 161.844 120.18C161.762 124.204 162.602 126.989 163.837 130.725C164.981 134.17 164.903 137.509 165.166 141.065C165.415 145.229 166.066 149.36 167.11 153.399C159.758 162.864 150.34 170.524 139.576 175.794C128.812 181.063 116.985 183.803 105 183.803Z"
+                    fill="#E0156A"
+                  />
+                </svg>
+              </div>
+              <div
+                class="card-img-overlay d-flex flex-column p-0 justify-content-center align-items-center"
+                id="rectangle-657"
+              >
+                <div id="_10-tons">
+                  <span
+                    ><span id="_10-tons-span">10+ tons</span
+                    ><span id="_10-tons-span2"> </span
+                  ></span>
+                </div>
+                <div id="gift-waste-saved">gift waste<br />saved</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- matin will create-->
+      <!-- <div class="charities-list">
         <div class="our-charities">Our Charities</div>
         <div class="frame-13">
           <div class="frame-10">
@@ -173,175 +597,7 @@
           </svg>
         </div>
       </div>
-      <div class="impact">
-        <div class="frame-57">
-          <div class="our-impact">Our Impact</div>
-          <div class="impact-grids">
-            <div class="users">
-              <div class="rectangle-654"></div>
-              <div class="users2">
-                <div
-                  class="_20-30-80-600-800-2-000-5-000-8-000-12-000-13-000-14-000-16-000-18-000-19-000-20-000"
-                >
-                  20<br />30<br />80<br />600<br />800<br />2,000<br />5,000<br />8,000<br />12,000<br />13,000<br />14,000<br />16,000<br />18,000<br />19,000<br />20,000
-                </div>
-              </div>
-              <div class="users3">
-                <span
-                  ><span class="users-3-span">+</span
-                  ><span class="users-3-span2"> Users</span></span
-                >
-              </div>
-              <div class="component-1">
-                <div class="frame-53">
-                  <img
-                    class="_1-mtwopresents-hong-kong-dog-hker-t-rescue-1"
-                    src="src/img/_1-mtwopresents-hong-kong-dog-hker-t-rescue-1.png"
-                  /><img
-                    class="_20-facebook-1"
-                    src="src/img/_20-facebook-1.png"
-                  /><img
-                    class="_350963269-3478517989072821-8810605381961366536-n-800-800-1"
-                    src="src/img/_350963269-3478517989072821-8810605381961366536-n-800-800-1.png"
-                  /><img class="_1-1" src="src/img/_1-1.png" /><img
-                    class="no-photo-description-available"
-                    src="src/img/no-photo-description-available.png"
-                  /><img
-                    class="_20-facebook-1"
-                    src="src/img/_20-facebook-1.png"
-                  /><img
-                    class="_20-facebook"
-                    src="src/img/_20-facebook.png"
-                  /><img
-                    class="_20-facebook-1"
-                    src="src/img/_20-facebook-1.png"
-                  /><img
-                    class="no-photo-description-available"
-                    src="src/img/no-photo-description-available.png"
-                  /><img
-                    class="may-be-an-image-of-text-that-says-seas-mtwopresents"
-                    src="src/img/may-be-an-image-of-text-that-says-seas-mtwopresents.png"
-                  /><img
-                    class="_20-facebook-2"
-                    src="src/img/_20-facebook-2.png"
-                  /><img
-                    class="_20-facebook"
-                    src="src/img/_20-facebook.png"
-                  /><img
-                    class="_1-mtwopresents-hong-kong-dog-hker-t-rescue-1"
-                    src="src/img/_1-mtwopresents-hong-kong-dog-hker-t-rescue-1.png"
-                  /><img
-                    class="_20-facebook-2"
-                    src="src/img/_20-facebook-2.png"
-                  /><img
-                    class="_350963269-3478517989072821-8810605381961366536-n-800-800-2"
-                    src="src/img/_350963269-3478517989072821-8810605381961366536-n-800-800-2.png"
-                  /><img class="_1-2" src="src/img/_1-2.png" /><img
-                    class="no-photo-description-available"
-                    src="src/img/no-photo-description-available.png"
-                  /><img
-                    class="_20-facebook-1"
-                    src="src/img/_20-facebook-1.png"
-                  /><img
-                    class="_20-facebook"
-                    src="src/img/_20-facebook.png"
-                  /><img
-                    class="_20-facebook-1"
-                    src="src/img/_20-facebook-1.png"
-                  /><img
-                    class="no-photo-description-available"
-                    src="src/img/no-photo-description-available.png"
-                  /><img
-                    class="may-be-an-image-of-text-that-says-seas-mtwopresents"
-                    src="src/img/may-be-an-image-of-text-that-says-seas-mtwopresents.png"
-                  /><img
-                    class="_20-facebook-2"
-                    src="src/img/_20-facebook-2.png"
-                  /><img class="_20-facebook" src="src/img/_20-facebook.png" />
-                </div>
-              </div>
-            </div>
-            <div class="fund">
-              <div class="group-39476">
-                <div class="rectangle-655"></div>
-                <svg
-                  class="material-symbols-volunteer-activism-outline-rounded"
-                  width="223"
-                  height="223"
-                  viewBox="0 0 223 223"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    opacity="0.1"
-                    d="M139.375 116.179C138.291 116.179 137.244 116.024 136.234 115.714C135.225 115.405 134.336 114.863 133.568 114.088C120.25 102.009 108.595 90.3544 98.6032 79.1239C88.6115 67.8933 83.6188 57.403 83.625 47.653C83.625 38.9808 86.5674 31.7023 92.4521 25.8176C98.3368 19.9328 105.615 16.9905 114.288 16.9905C119.243 16.9905 123.889 18.0373 128.225 20.1311C132.561 22.2248 136.278 25.0495 139.375 28.6051C142.472 25.0433 146.189 22.2186 150.525 20.1311C154.861 18.0435 159.507 16.9967 164.463 16.9905C173.135 16.9905 180.413 19.9328 186.298 25.8176C192.183 31.7023 195.125 38.9808 195.125 47.653C195.125 57.4092 190.129 67.9026 180.138 79.1332C170.146 90.3637 158.494 102.015 145.182 114.088C144.408 114.863 143.516 115.405 142.506 115.714C141.497 116.024 140.453 116.179 139.375 116.179ZM139.375 94.1113C148.512 85.4391 156.992 76.804 164.816 68.2062C172.639 59.6083 176.548 52.7572 176.542 47.653C176.542 44.0912 175.417 41.1891 173.169 38.9467C170.92 36.7043 168.018 35.58 164.463 35.5738C162.294 35.5738 160.241 36.0012 158.302 36.8561C156.363 37.7109 154.7 38.987 153.313 40.6842L139.375 57.4092L125.438 40.6842C124.044 38.9808 122.381 37.7016 120.448 36.8468C118.515 35.9919 116.462 35.5676 114.288 35.5738C110.726 35.5738 107.821 36.6981 105.572 38.9467C103.323 41.1953 102.202 44.0974 102.208 47.653C102.208 52.7634 106.12 59.6176 113.944 68.2154C121.767 76.8133 130.244 85.4453 139.375 94.1113ZM120.327 187.957L175.613 170.768C174.838 169.374 173.714 168.172 172.24 167.162C170.765 166.153 169.102 165.651 167.25 165.657H120.327C116.146 165.657 112.816 165.502 110.339 165.193C107.861 164.883 105.306 164.263 102.673 163.334L89.4323 158.921C86.9545 158.146 85.1736 156.598 84.0896 154.275C83.0056 151.952 82.8507 149.552 83.625 147.074C84.3993 144.596 85.9108 142.775 88.1594 141.61C90.4079 140.446 92.768 140.254 95.2396 141.034L104.996 144.286C107.628 145.061 110.611 145.68 113.944 146.145C117.276 146.609 121.804 146.919 127.528 147.074H130.083C130.083 145.37 129.582 143.744 128.578 142.196C127.575 140.647 126.373 139.64 124.973 139.176L70.6167 119.199H55.75V170.303L120.327 187.957ZM115.449 206.076L55.75 189.351C54.5111 193.377 52.0705 196.629 48.4282 199.107C44.7859 201.585 41.032 202.824 37.1667 202.824H18.5833C13.4729 202.824 9.09656 201.003 5.45422 197.36C1.81189 193.718 -0.00617867 189.345 1.57753e-05 184.241V119.199C1.57753e-05 114.088 1.82118 109.712 5.46352 106.07C9.10585 102.427 13.4791 100.609 18.5833 100.615H70.6167C71.7007 100.615 72.7847 100.733 73.8688 100.969C74.9528 101.204 75.9594 101.473 76.8886 101.777L131.477 121.986C136.588 123.845 140.732 127.097 143.909 131.743C147.087 136.388 148.673 141.499 148.667 147.074H167.25C174.993 147.074 181.575 149.629 186.995 154.739C192.415 159.85 195.125 166.586 195.125 174.949C195.125 178.356 194.233 181.029 192.449 182.968C190.665 184.906 187.918 186.492 184.207 187.725L126.134 205.844C124.431 206.463 122.65 206.773 120.792 206.773C118.933 206.773 117.152 206.541 115.449 206.076ZM18.5833 184.241H37.1667V119.199H18.5833V184.241Z"
-                    fill="#E0156A"
-                  />
-                </svg>
-              </div>
-              <div class="hk-20-million-raised">
-                <span
-                  ><span class="hk-20-million-raised-span">HK$20+ million</span
-                  ><span class="hk-20-million-raised-span2"> Raised</span></span
-                >
-              </div>
-            </div>
-            <div class="earth">
-              <div class="group-39477">
-                <div class="rectangle-657"></div>
-                <svg
-                  class="ion-earth"
-                  width="210"
-                  height="210"
-                  viewBox="0 0 210 210"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    opacity="0.2"
-                    d="M169.965 40.0888C161.449 31.4885 151.317 24.6556 140.152 19.9826C128.988 15.3096 117.01 12.8887 104.906 12.8589C92.8031 12.8291 80.8133 15.1911 69.6256 19.809C58.438 24.427 48.273 31.2099 39.7147 39.7682C31.1564 48.3265 24.3735 58.4914 19.7555 69.6791C15.1376 80.8667 12.7757 92.8566 12.8055 104.96C12.8352 117.063 15.2562 129.041 19.9291 140.206C24.6021 151.371 31.435 161.502 40.0353 170.018C48.5514 178.618 58.6828 185.451 69.8476 190.124C81.0124 194.797 92.9904 197.218 105.094 197.248C117.197 197.278 129.187 194.916 140.374 190.298C151.562 185.68 161.727 178.897 170.285 170.339C178.844 161.78 185.626 151.615 190.244 140.428C194.862 129.24 197.224 117.25 197.194 105.147C197.165 93.0439 194.744 81.0658 190.071 69.9011C185.398 58.7363 178.565 48.6048 169.965 40.0888ZM26.25 105.053C26.247 98.0837 27.1711 91.1445 28.998 84.4185C32.0086 90.8989 36.3808 96.4976 39.3545 103.146C43.1976 111.694 53.5172 109.323 58.074 116.813C62.1181 123.461 57.7992 131.869 60.8261 138.826C63.0246 143.875 68.209 144.978 71.7855 148.669C75.44 152.394 75.3621 157.496 75.9199 162.352C76.5493 168.058 77.5703 173.714 78.9756 179.279C78.9756 179.32 78.9756 179.366 79.0084 179.407C48.3164 168.628 26.25 139.371 26.25 105.053ZM105 183.803C100.602 183.802 96.2119 183.434 91.875 182.704C91.9201 181.593 91.9406 180.555 92.0513 179.833C93.048 173.312 96.3129 166.934 100.718 162.053C105.07 157.238 111.033 153.981 114.708 148.518C118.31 143.186 119.388 136.008 117.903 129.778C115.717 120.574 103.212 117.502 96.4687 112.51C92.5927 109.639 89.1433 105.201 84.0533 104.84C81.7072 104.676 79.7425 105.181 77.417 104.582C75.2841 104.028 73.6107 102.88 71.3384 103.179C67.0933 103.737 64.415 108.273 59.8541 107.658C55.5269 107.08 51.0685 102.014 50.0841 97.8921C48.8209 92.5929 53.0127 90.8743 57.5039 90.4027C59.3783 90.2058 61.4824 89.9925 63.283 90.6816C65.6537 91.5593 66.7734 93.8808 68.9021 95.0538C72.8929 97.2441 73.7009 93.7454 73.0898 90.2017C72.1752 84.8943 71.1088 82.7327 75.842 79.0782C79.1232 76.5599 81.9287 74.7388 81.4037 70.2148C81.092 67.5569 79.6359 66.3552 80.9935 63.7097C82.023 61.6958 84.849 59.8788 86.6906 58.6771C91.4443 55.5763 107.055 55.806 100.677 47.1271C98.8025 44.58 95.3449 40.0273 92.0636 39.4038C87.9621 38.6286 86.141 43.206 83.2822 45.2239C80.3291 47.3116 74.5787 49.6823 71.6215 46.4544C67.6429 42.1109 74.2588 40.6876 75.723 37.6525C76.3998 36.2374 75.723 34.2728 74.5828 32.423C76.0621 31.7995 77.566 31.2212 79.0945 30.688C80.0524 31.3955 81.1888 31.8217 82.3757 31.9185C85.1197 32.0989 87.7078 30.6142 90.1031 32.4845C92.7609 34.5353 94.6763 37.1275 98.2037 37.7673C101.616 38.3866 105.23 36.3974 106.075 32.9028C106.587 30.7782 106.075 28.5347 105.582 26.3403C120.922 26.4286 135.898 31.0226 148.649 39.5515C147.829 39.2398 146.848 39.2767 145.638 39.8386C143.149 40.9952 139.621 43.9402 139.33 46.8605C138.998 50.1745 143.887 50.6421 146.208 50.6421C149.695 50.6421 153.226 49.0835 152.102 45.0558C151.614 43.3085 150.95 41.4915 149.879 40.3923C152.453 42.178 154.918 44.1146 157.262 46.1919C157.225 46.2288 157.188 46.2616 157.151 46.3027C154.789 48.7636 152.045 50.7118 150.429 53.706C149.289 55.8142 148.005 56.815 145.696 57.3605C144.424 57.6599 142.972 57.7706 141.906 58.6237C138.936 60.9616 140.626 66.5808 143.44 68.2665C146.996 70.3952 152.27 69.3945 154.953 66.3552C157.049 63.9763 158.283 59.846 162.053 59.8501C163.712 59.8467 165.306 60.4964 166.491 61.6589C168.049 63.2749 167.742 64.7843 168.074 66.8023C168.66 70.387 171.823 68.4429 173.746 66.6341C175.148 69.1296 176.414 71.6996 177.536 74.3327C175.42 77.3802 173.738 80.7025 168.648 77.1505C165.601 75.0218 163.726 71.9333 159.899 70.9735C156.557 70.1532 153.132 71.0064 149.83 71.5765C146.077 72.2286 141.627 72.5157 138.78 75.3581C136.028 78.098 134.572 81.7648 131.644 84.5169C125.979 89.8489 123.588 95.6691 127.255 103.208C130.782 110.455 138.161 114.389 146.122 113.872C153.944 113.351 162.069 108.815 161.844 120.18C161.762 124.204 162.602 126.989 163.837 130.725C164.981 134.17 164.903 137.509 165.166 141.065C165.415 145.229 166.066 149.36 167.11 153.399C159.758 162.864 150.34 170.524 139.576 175.794C128.812 181.063 116.985 183.803 105 183.803Z"
-                    fill="#E0156A"
-                  />
-                </svg>
-              </div>
-              <div class="_10-tons">
-                <span
-                  ><span class="_10-tons-span">10+ tons</span
-                  ><span class="_10-tons-span2"> </span
-                ></span>
-              </div>
-              <div class="gift-waste-saved">gift waste<br />saved</div>
-            </div>
-            <div class="campaign">
-              <div class="group-39478">
-                <div class="rectangle-656"></div>
-                <svg
-                  class="material-symbols-campaign-outline"
-                  width="255"
-                  height="255"
-                  viewBox="0 0 255 255"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    opacity="0.1"
-                    d="M207.643 136.911V115.661H250.143V136.911H207.643ZM220.393 211.286L186.393 185.786L199.143 168.786L233.143 194.286L220.393 211.286ZM199.143 83.7858L186.393 66.7858L220.393 41.2858L233.143 58.2858L199.143 83.7858ZM69.5181 236.179V158.161H58.8931C53.0493 158.161 48.045 156.078 43.88 151.913C39.715 147.748 37.636 142.747 37.6431 136.911V115.661C37.6431 109.817 39.7256 104.813 43.8906 100.648C48.0556 96.4826 53.0564 94.4037 58.8931 94.4108H101.393L154.518 62.5358V190.036L101.393 158.161H90.7681V236.179H69.5181ZM165.143 161.88V90.692C169.924 94.942 173.778 100.123 176.703 106.236C179.629 112.349 181.088 119.032 181.081 126.286C181.081 133.546 179.618 140.233 176.692 146.346C173.767 152.459 169.917 157.637 165.143 161.88ZM58.8931 115.661V136.911H107.237L133.268 152.317V100.255L107.237 115.661H58.8931Z"
-                    fill="#E0156A"
-                  />
-                </svg>
-              </div>
-              <div class="_50-campaigns">
-                <span
-                  ><span class="_50-campaigns-span">50+</span
-                  ><span class="_50-campaigns-span2">
-                    <br />Campaigns</span
-                  ></span
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
       <div class="reminder">
         <div class="save-twopresents-for-your-next-event">
           Save Twopresents For Your Next Event!
@@ -484,150 +740,7 @@
             src="src/img/media-image-4.png"
           /><img class="media-image-5" src="src/img/media-image-5.png" />
         </div>
-      </div>
-      <div class="how-it-works">
-        <div class="frame-3">
-          <div class="how-it-works2">How It Works</div>
-        </div>
-        <div class="frame-7">
-          <div class="frame-4">
-            <div class="frame-31">
-              <div class="frame-65">
-                <div class="steps">
-                  <div class="ellipse-162"></div>
-                  <div class="_1">1</div>
-                </div>
-                <img class="send-invite-1" src="src/img/send-invite-1.png" />
-              </div>
-            </div>
-            <div class="invite">Invite</div>
-            <div class="create-your-invitation-and-share-with-guests">
-              Create your invitation and share with guests
-            </div>
-          </div>
-          <div class="frame-6">
-            <div class="frame-32">
-              <div class="frame-66">
-                <div class="steps">
-                  <div class="ellipse-162"></div>
-                  <div class="_2">2</div>
-                </div>
-                <img
-                  class="collect-money-1"
-                  src="src/img/collect-money-1.png"
-                />
-              </div>
-            </div>
-            <div class="collect">Collect</div>
-            <div
-              class="guests-can-contribute-money-into-a-gift-fund-instead-of-bringing-individual-gifts"
-            >
-              Guests can contribute money into a gift fund instead of bringing
-              individual gifts
-            </div>
-          </div>
-          <div class="frame-5">
-            <div class="frame-33">
-              <div class="frame-67">
-                <div class="steps">
-                  <div class="ellipse-162"></div>
-                  <div class="_3">3</div>
-                </div>
-                <img
-                  class="share-the-joy-1"
-                  src="src/img/share-the-joy-1.png"
-                />
-              </div>
-            </div>
-            <div class="share">Share</div>
-            <div
-              class="we-split-the-funds-one-part-is-for-your-gift-the-other-for-your-charity"
-            >
-              We split the funds: one part is for your gift, the other for your
-              charity
-            </div>
-            <div class="text-link">
-              <div class="see-the-demo">
-                <a href="https://www.youtube.com/watch?v=WNmFPvqHd-8"
-                  >See the Demo</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="occasions">
-        <div class="twopresents-for-any-occasion">
-          Twopresents for Any Occasion
-        </div>
-        <div class="frame-70">
-          <div class="frame-68">
-            <img class="rectangle-662" src="src/img/rectangle-662-1.png" />
-            <div class="baby-shower">Baby Shower</div>
-          </div>
-          <div class="frame-69">
-            <img class="rectangle-662" src="src/img/rectangle-662-2.png" />
-            <div class="kids-grown-up-birthdays">
-              Kids &amp; Grown Up Birthdays
-            </div>
-          </div>
-          <div class="frame-702">
-            <img class="rectangle-662" src="src/img/rectangle-662-3.png" />
-            <div class="leaving-parties">Leaving Parties</div>
-          </div>
-          <div class="frame-71">
-            <img class="rectangle-662" src="src/img/rectangle-662.png" />
-            <div class="weddings">Weddings</div>
-          </div>
-        </div>
-      </div>
-      <div class="missions">
-        <div class="our-missions">Our Missions</div>
-        <div class="frame-75">
-          <div class="frame-72">
-            <img class="rectangle-658" src="src/img/rectangle-658.png" />
-            <div class="get-your-dream-gift-from-all-your-friends">
-              Get your dream gift from all your friends
-            </div>
-          </div>
-          <div class="frame-73">
-            <img class="rectangle-659" src="src/img/rectangle-659.png" />
-            <div class="give-back-to-charity-and-support-people-in-need">
-              Give back to charity and support people in need
-            </div>
-          </div>
-          <div class="frame-74">
-            <div class="mask-group2">
-              <img class="rectangle-660" src="src/img/rectangle-660.png" /><img
-                class="whats-app-image-2023-09-01-at-12-42-1"
-                src="src/img/whats-app-image-2023-09-01-at-12-42-1.png"
-              />
-            </div>
-            <div class="save-the-environment-and-reduce-gift-waste">
-              Save the environment and reduce gift waste
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="nav-bar">
-        <div class="frame-1">
-          <img class="tp-logo-3" src="src/img/tp-logo-3.png" />
-          <div class="auto-layout-horizontal2">
-            <div class="how-it-works3">How It Works</div>
-            <div class="cards">Cards</div>
-            <div class="charities">Charities</div>
-            <div class="gift-ideas">Gift Ideas</div>
-          </div>
-          <div class="auto-layout-horizontal3">
-            <div class="style-outlined">
-              <div class="log-in">Log In</div>
-            </div>
-            <div class="button-primary">
-              <div class="get-started">GET STARTED</div>
-            </div>
-          </div>
-        </div>
-      </div>
+      </div> -->
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
