@@ -8,12 +8,21 @@ body {
   border: 0;
 }
 /* headline */
-.headline {
+.headline1 {
   font-family: "Cambay", sans-serif;
   font-size: 48px;
   font-weight: bold;
   margin-top: 58px; /* space above text */
   line-height: 58px; /* leading */
+  letter-spacing: 0px; /* tracking */
+}
+/* headline2 */
+.headline2 {
+  font-family: "Cambay", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 50px; /* space above text */
+  line-height: 50px; /* leading */
   letter-spacing: 0px; /* tracking */
 }
 /* homepage overlay text */
@@ -173,1257 +182,321 @@ a:active {
   background: #ffffff;
   overflow: hidden;
 }
-#frame-79 {
-  background: #ffffff;
-}
-#nav-bar {
-  background: #ffffff;
-  padding-block: 16px 16px;
-}
-#frame-1 {
-  background: #ffffff;
-}
-#tp-logo-3 {
-  background: #ffffff;
-}
-#log-in {
-  width: 101px;
+
+.navbar a {
   color: var(--second-lv-category-nav);
 }
-#get-started {
+.navbar button {
   color: var(--secondary-content-bg);
 }
-#auto-layout-horizontal2 {
-  background: #ffffff;
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
 }
-#how-it-works3 {
-  color: var(--second-lv-category-nav);
-}
-#cards {
-  color: var(--second-lv-category-nav);
-}
-#charities {
-  color: var(--second-lv-category-nav);
-}
-#gift-ideas {
-  color: var(--second-lv-category-nav);
-}
-#hero {
-  background: #ffffff;
+.navbar-toggler[aria-expanded="false"] span {
+  background-image: url(/src/img/mdi_menu.svg);
 }
 
-#hero-image {
-  background: #ffffff;
+.navbar-toggler[aria-expanded="true"] span {
+  background-image: url(/src/img/ic_baseline-close.svg);
 }
-#whats-app-image-2023-07-26-at-11-03-1 {
-  background: #ffffff;
+@media (max-width: 991px) {
+  #nav-bar {
+    width: auto;
+    height: auto;
+  }
 }
-#hero-message {
-  background: #ffffff;
+@media (min-width: 992px) {
+  #nav-bar {
+    max-width: 1320px;
+    height: auto;
+  }
 }
-
-#auto-layout-vertical {
-  background: #ffffff;
-}
-#auto-layout-vertical2 {
-  background: #ffffff;
-}
-#one-for-you-one-for-charity {
+#hero h1 {
   color: var(--brand-color);
 }
-#combine-event-invitations-with-charitable-giving-share-joy-with-charities-you-love {
-  color: var(--second-lv-category-nav);
-}
-
-#how-it-works {
-  background-color: #ffffff;
-}
-#how-it-works2 {
-  color: var(--second-lv-category-nav);
-}
-#invite {
-  color: var(--second-lv-category-nav);
-}
-#create-your-invitation-and-share-with-guests {
-  color: var(--second-lv-category-nav);
-}
-#collect {
-  color: var(--second-lv-category-nav);
-}
-#guests-can-contribute-money-into-a-gift-fund-instead-of-bringing-individual-gifts {
-  color: var(--second-lv-category-nav);
-}
-#share {
-  color: var(--second-lv-category-nav);
-}
-#we-split-the-funds-one-part-is-for-your-gift-the-other-for-your-charity {
-  color: var(--second-lv-category-nav);
-}
-#frame-31 {
-  width: 316px;
-  height: 316px;
-  padding: 83px 83px 83px 27px;
-}
-#frame-32 {
-  max-width: 316px;
-  height: 316px;
-  padding: 77px 83px 77px 27px;
-}
-#frame-33 {
-  width: 316px;
-  height: 316px;
-  padding: 93px 73px 93px 27px;
-}
-#frame-4 {
-  width: 316px;
-}
-#frame-3 {
-  background-color: #ffffff;
-}
-#frame-5 {
-  width: 316px;
-}
-#frame-6 {
-  width: 316px;
-}
-#ellipse-162 {
-  position: relative;
-  z-index: 0;
-  top: 35px;
-}
-#_2 {
-  position: relative;
-  z-index: 1;
-  color: var(--brand-color);
-}
-#_1 {
-  position: relative;
-  z-index: 1;
-  color: var(--brand-color);
-}
-#_3 {
-  position: relative;
-  z-index: 1;
-  color: var(--brand-color);
-}
-
-#missions {
-  background-color: #ffffff;
-}
-#our-missions {
+#hero h3 {
   color: var(--heading);
 }
-#frame-72 {
-  width: 300px;
+#hero button {
+  color: var(--secondary-content-bg);
 }
-#frame-73 {
-  width: 300px;
+
+@media (max-width: 991px) {
+  #hero {
+    width: auto;
+    height: auto;
+  }
+  #hero #hero-image {
+    width: auto;
+    height: auto;
+  }
+  #hero #hero-message {
+    width: auto;
+    height: auto;
+  }
 }
-#frame-74 {
-  width: 300px;
+@media (min-width: 992px) {
+  #hero {
+    max-width: 1320px;
+    height: auto;
+  }
+  #hero #hero-image {
+    width: 649px;
+    height: auto;
+  }
+  #hero #hero-message {
+    width: 607px;
+    height: auto;
+  }
 }
-#give-back-to-charity-and-support-people-in-need {
-  color: var(--second-lv-category-nav);
-}
-#get-your-dream-gift-from-all-your-friends {
-  color: var(--second-lv-category-nav);
-}
-#save-twopresents-for-your-next-event {
-  color: var(--second-lv-category-nav);
-}
-#frame-68 {
-  width: 245px;
-}
-#frame-69 {
-  width: 245px;
-}
-#frame-702 {
-  width: 245px;
-}
-#frame-71 {
-  width: 245px;
-}
-#twopresents-for-any-occasion {
+
+#how-it-works h1 {
   color: var(--heading);
 }
-#baby-shower {
-  color: var(--second-lv-category-nav);
+#how-it-works h2 {
+  color: var(--heading);
+}
+#how-it-works h4 {
+  color: var(--heading);
+}
+#how-it-works .ellipse {
+  color: var(--brand-color);
+}
+@media (max-width: 991px) {
+  #how-it-works {
+    width: 313px;
+    height: auto;
+  }
+  #how-it-works #frame-7 .d-flex {
+    width: 313px;
+    height: auto;
+  }
+  #how-it-works #frame-7 .d-flex > div:first-of-type {
+    width: 240px;
+    height: 240px;
+  }
+  #how-it-works #frame-7 .d-flex #frame-31 {
+    padding: 60px 58px 60px 16px;
+  }
+  #how-it-works #frame-7 .d-flex #frame-32 {
+    padding: 55px 58px 55px 16px;
+  }
+  #how-it-works #frame-7 .d-flex #frame-33 {
+    padding: 71px 58px 71px 16px;
+  }
+  .ellipse {
+    width: 38px;
+    height: 37px;
+    border: 2px solid; /* Border color */
+    border-radius: 50%; /* Make it a circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent; /* Transparent background */
+  }
+}
+@media (min-width: 992px) {
+  #how-it-works {
+    max-width: 1092px;
+    height: auto;
+  }
+  #how-it-works #frame-7 .d-flex {
+    width: 316px;
+    height: auto;
+  }
+  #how-it-works #frame-7 .d-flex > div:first-of-type {
+    max-width: 316px;
+    height: 316px;
+  }
+  #how-it-works #frame-7 .d-flex #frame-31 {
+    padding: 83px 83px 83px 27px;
+  }
+  #how-it-works #frame-7 .d-flex #frame-32 {
+    padding: 77px 83px 77px 27px;
+  }
+  #how-it-works #frame-7 .d-flex #frame-33 {
+    padding: 93px 73px 93px 27px;
+  }
+  .ellipse {
+    width: 48px;
+    height: 48px;
+    border: 2px solid; /* Border color */
+    border-radius: 50%; /* Make it a circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent; /* Transparent background */
+  }
 }
 
-#kids-grown-up-birthdays {
-  color: var(--second-lv-category-nav);
+#missions h1 {
+  color: var(--heading);
+}
+#missions h3 {
+  color: var(--heading);
+}
+@media (max-width: 991px) {
+  #missions {
+    width: 300px;
+    height: auto;
+  }
+  #missions #frame-75 .d-flex {
+    width: 300px;
+    height: auto;
+  }
+}
+@media (min-width: 992px) {
+  #missions {
+    max-width: 1090px;
+    height: auto;
+  }
+  #missions #frame-75 .d-flex {
+    width: 300px;
+    height: auto;
+  }
 }
 
-#leaving-parties {
-  color: var(--second-lv-category-nav);
+#occasions h1 {
+  color: var(--heading);
+}
+#occasions h3 {
+  color: var(--heading);
+}
+@media (max-width: 991px) {
+  #occasions {
+    width: 290px;
+    height: auto;
+  }
+  #occasions #frame-70 .d-flex {
+    width: 240px;
+    height: auto;
+  }
+}
+@media (min-width: 992px) {
+  #occasions {
+    max-width: 1096px;
+    height: auto;
+  }
+  #occasions #frame-70 .d-flex {
+    width: 245px;
+    height: auto;
+  }
 }
 
-#weddings {
-  color: var(--second-lv-category-nav);
-}
-
-/* #users {
-  width: 762px;
-  height: 352px;
-}
-#fund {
-  width: 762px;
-  height: 208px;
-}
-#earth {
-  width: 315px;
-  height: 336px;
-}
-#campaign {
-  width: 315px;
-  height: 224px;
-} */
-/* 
-#frame-7 {
-  display: flex;
-  flex-direction: row;
-  gap: 72px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-
-
-#frame-65 {
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  align-items: center;
-  justify-content: flex-start;
-  position: absolute;
-  left: 27px;
-  top: 83px;
-}
-#steps {
-  flex-shrink: 0;
-  width: 48px;
-  height: 48px;
-  position: relative;
-}
-
-
-#send-invite-1 {
-  flex-shrink: 0;
-  width: 150px;
-  height: 150px;
-  position: relative;
-}
-
-
-
-#frame-66 {
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  align-items: center;
-  justify-content: flex-start;
-  position: absolute;
-  left: 27px;
-  top: 77px;
-}
-
-#collect-money-1 {
-  flex-shrink: 0;
-  width: 150px;
-  height: 162px;
-  position: relative;
-}
-
-
-
-#frame-67 {
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  align-items: center;
-  justify-content: flex-start;
-  position: absolute;
-  left: 27px;
-  top: 93px;
-}
-
-#share-the-joy-1 {
-  flex-shrink: 0;
-  width: 160px;
-  height: 130px;
-  position: relative;
-}
-
-
-#see-the-demo {
-  color: #e0156a;
-  text-align: left;
-  font: var(--cta-text, 500 16px/20px "Karla", sans-serif);
-  position: absolute;
-  left: 0px;
-  top: 0px;
-} */
-/* 
-#charities-list {
-  display: flex;
-  flex-direction: column;
-  gap: 60px;
-  align-items: center;
-  justify-content: flex-start;
-  position: absolute;
-  left: 172px;
-  top: 3256px;
-}
-#our-charities {
-  color: var(--heading, #666666);
-  text-align: left;
-  font: var(--heading-1, 700 36px/43px "Cambay", sans-serif);
-  position: relative;
-}
-#frame-13 {
-  display: flex;
-  flex-direction: column;
-  gap: 36px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-#frame-10 {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
-  flex-shrink: 0;
-  width: 1098px;
-  position: relative;
-}
-#rectangle-653 {
-  flex-shrink: 0;
-  width: 220px;
-  height: 220px;
-  position: relative;
-}
-#rectangle-651 {
-  flex-shrink: 0;
-  width: 220px;
-  height: 220px;
-  position: relative;
-}
-#rectangle-650 {
-  flex-shrink: 0;
-  width: 220px;
-  height: 220px;
-  position: relative;
-}
-#rectangle-652 {
-  flex-shrink: 0;
-  width: 220px;
-  height: 220px;
-  position: relative;
-}
-#frame-132 {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
-  flex-shrink: 0;
-  width: 1098px;
-  position: relative;
-}
-#button-see-all-charities {
-  background: #ffffff;
-  border-style: solid;
-  border-color: #e0156a;
-  border-width: 1px;
-  padding: 10px 28px 10px 28px;
-  display: flex;
-  flex-direction: row;
-  gap: 12px;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  left: calc(50% - 88px);
-  top: 3915px;
-  overflow: hidden;
-}
-#see-all-charities {
-  color: #e0156a;
-  text-align: left;
-  font: var(--cta-text, 500 16px/20px "Karla", sans-serif);
-  position: relative;
-}
-#featured-in {
-  display: flex;
-  flex-direction: column;
-  gap: 36px;
-  align-items: center;
-  justify-content: flex-start;
-  width: 1115px;
-  position: absolute;
-  left: calc(50% - 558px);
-  top: 5061px;
-}
-#featured-in2 {
-  color: var(--heading, #666666);
-  text-align: left;
-  font: var(--heading-4, 500 18px/21px "Karla", sans-serif);
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-#auto-layout-horizontal {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-#media-image-1 {
-  flex-shrink: 0;
-  width: 1022px;
-  height: 70px;
-  position: relative;
-}
-#testinomial {
-  display: flex;
-  flex-direction: column;
-  gap: 60px;
-  align-items: center;
-  justify-content: flex-start;
-  position: absolute;
-  left: 111px;
-  top: 4077px;
-}
-#what-our-users-say {
-  color: var(--heading, #666666);
-  text-align: left;
-  font: var(--heading-1, 700 36px/43px "Cambay", sans-serif);
-  position: relative;
-}
-#testinomial2 {
-  flex-shrink: 0;
-  width: 1217px;
-  height: 338px;
-  position: relative;
-}
-#frame {
-  display: flex;
-  flex-direction: column;
-  gap: 56px;
-  align-items: center;
-  justify-content: flex-start;
-  position: absolute;
-  left: 84px;
-  bottom: 0px;
-}
-#frame-43 {
-  background: #f7f7f7;
-  border-radius: 10px;
-  padding: 40px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-#at-our-wedding-we-chose-twopresents-so-that-our-guests-can-choose-to-donate-to-the-organisations-of-our-choices-i-hope-my-kid-would-be-mindful-of-the-beautiful-planet-that-we-re-living-in-and-the-whole-concept-of-gift-giving-can-be-thought-in-a-very-different-way {
-  color: var(--body-color, #666666);
-  text-align: left;
-  font: var(--heading-3, 500 20px/22px "Karla", sans-serif);
-  position: relative;
-  width: 969px;
-}
-#frame-41 {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-#mask-group {
-  flex-shrink: 0;
-  width: 80px;
-  height: 80px;
-  position: static;
-}
-#ellipse-161 {
-  background: #d9d9d9;
-  border-radius: 50%;
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  left: 249px;
-  top: 0px;
-}
-#screenshot-2023-08-09-21-22-1 {
-  width: 82.16px;
-  height: 82.16px;
-  position: absolute;
-  left: 247.92px;
-  top: -0.54px;
-}
-#robynn-yip-singer-songwriter {
-  color: #666666;
-  text-align: center;
-  font: var(--undefined, 400 16px/22px "Karla", sans-serif);
-  position: relative;
-  width: 578px;
-}
-#robynn-yip-singer-songwriter-span {
-  color: #666666;
-  font: 400 16px/22px "Karla", sans-serif;
-}
-#robynn-yip-singer-songwriter-span2 {
-  color: #666666;
-  font: var(--body-text, 400 16px/22px "Karla", sans-serif);
-}
-#ep-arrow-right {
-  border-radius: 25px;
-  position: absolute;
-  left: 1181px;
-  top: 55px;
-  overflow: visible;
-}
-#ep-arrow-right2 {
-  border-radius: 25px;
-  position: absolute;
-  left: 36px;
-  top: 55px;
-  transform: translate(-36px, 0px);
-  overflow: visible;
-}
 #impact {
-  background: #f7f7f7;
-  padding: 60px 170px 60px 170px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  position: absolute;
-  left: 1px;
-  top: 2353px;
+  background-color: var(--primary-content-bg);
 }
-#frame-57 {
-  display: flex;
-  flex-direction: column;
-  gap: 60px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
+#impact h1 {
+  color: var(--heading);
 }
-#our-impact {
-  color: var(--heading, #666666);
-  text-align: left;
-  font: var(--heading-1, 700 36px/43px "Cambay", sans-serif);
-  position: relative;
+#impact #users-2,
+#impact #users-3-span,
+#impact #_50-campaigns-span,
+#impact #hk-20-million-raised-span,
+#impact #_10-tons-span {
+  color: var(--brand-color);
 }
-#impact-grids {
-  flex-shrink: 0;
-  width: 1099px;
-  height: 580px;
-  position: relative;
-}
-#users {
-  width: 762px;
-  height: 352px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-#rectangle-654 {
-  background: #ffffff;
-  border-radius: 16px;
-  width: 762px;
-  height: 352px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-#users2 {
-  width: 142px;
-  height: 72px;
-  position: absolute;
-  left: calc(50% - 156px);
-  top: 40px;
-  overflow: hidden;
-}
-#_20-30-80-600-800-2-000-5-000-8-000-12-000-13-000-14-000-16-000-18-000-19-000-20-000 {
-  color: #e0156a;
-  text-align: right;
-  font: 700 48px/72px "Cambay", sans-serif;
-  position: absolute;
-  left: calc(50% - 71px);
-  top: -1008px;
-}
-#users3 {
-  text-align: right;
-  font: 700 48px/72px "Cambay", sans-serif;
-  position: absolute;
-  left: calc(50% - 14px);
-  top: 40px;
-}
-#users-3-span {
-  color: var(--brand-color, #e0156a);
-  font: 700 48px/72px "Cambay", sans-serif;
-}
-#users-3-span2 {
-  color: var(--heading, #666666);
-  font: 700 48px/72px "Cambay", sans-serif;
-}
-#component-1 {
-  width: 708px;
-  height: 160px;
-  position: absolute;
-  left: 54px;
-  top: 144px;
-  overflow: hidden;
-}
-#frame-53 {
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  width: 4024px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  overflow: hidden;
-}
-#_1-mtwopresents-hong-kong-dog-hker-t-rescue-1 {
-  flex-shrink: 0;
-  width: 160px;
-  height: 160px;
-  position: relative;
-}
-#_20-facebook-1 {
-  flex-shrink: 0;
-  width: 160px;
-  height: 160px;
-  position: relative;
-}
-#_350963269-3478517989072821-8810605381961366536-n-800-800-1 {
-  flex-shrink: 0;
-  width: 160px;
-  height: 160px;
-  position: relative;
-}
-#_1-1 {
-  flex-shrink: 0;
-  width: 160px;
-  height: 160px;
-  position: relative;
-}
-#no-photo-description-available {
-  flex-shrink: 0;
-  width: 160px;
-  height: 160px;
-  position: relative;
-}
-#_20-facebook {
-  flex-shrink: 0;
-  width: 160px;
-  height: 160px;
-  position: relative;
-}
-#may-be-an-image-of-text-that-says-seas-mtwopresents {
-  flex-shrink: 0;
-  width: 160px;
-  height: 160px;
-  position: relative;
-}
-#_20-facebook-2 {
-  flex-shrink: 0;
-  width: 160px;
-  height: 160px;
-  position: relative;
-}
-#_350963269-3478517989072821-8810605381961366536-n-800-800-2 {
-  flex-shrink: 0;
-  width: 160px;
-  height: 160px;
-  position: relative;
-}
-#_1-2 {
-  flex-shrink: 0;
-  width: 160px;
-  height: 160px;
-  position: relative;
-}
-#fund {
-  width: 761px;
-  height: 208px;
-  position: absolute;
-  left: 0px;
-  top: 372px;
-  overflow: hidden;
-}
-#group-39476 {
-  position: absolute;
-  inset: 0;
-}
-#rectangle-655 {
-  background: #ffffff;
-  border-radius: 16px;
-  width: 761px;
-  height: 208px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-#material-symbols-volunteer-activism-outline-rounded {
-  position: absolute;
-  left: -19px;
-  top: -8px;
-  overflow: visible;
-}
-#hk-20-million-raised {
-  text-align: left;
-  font: 700 48px/72px "Cambay", sans-serif;
-  position: absolute;
-  left: 213px;
-  top: calc(50% - 36px);
-}
-#hk-20-million-raised-span {
-  color: #e0156a;
-  font: 700 48px/72px "Cambay", sans-serif;
-}
-#hk-20-million-raised-span2 {
-  color: var(--heading, #666666);
-  font: 700 48px/72px "Cambay", sans-serif;
-}
-#earth {
-  width: 315px;
-  height: 336px;
-  position: absolute;
-  left: 784px;
-  top: 244px;
-  overflow: hidden;
-}
-#group-39477 {
-  position: absolute;
-  inset: 0;
-}
-#rectangle-657 {
-  background: #ffffff;
-  border-radius: 16px;
-  width: 315px;
-  height: 336px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-#ion-earth {
-  position: absolute;
-  left: 105px;
-  top: 189px;
-  overflow: visible;
-}
-#_10-tons {
-  text-align: left;
-  font: 700 48px/72px "Cambay", sans-serif;
-  position: absolute;
-  left: 24px;
-  top: 24px;
-}
-#_10-tons-span {
-  color: #e0156a;
-  font: 700 48px/72px "Cambay", sans-serif;
-}
-#_10-tons-span2 {
-  color: var(--heading, #666666);
-  font: 700 48px/72px "Cambay", sans-serif;
-}
-#gift-waste-saved {
-  color: var(--heading, #666666);
-  text-align: left;
-  font: 700 40px/50px "Cambay", sans-serif;
-  position: absolute;
-  left: 20px;
-  top: 96px;
-}
-#campaign {
-  width: 315px;
-  height: 224px;
-  position: absolute;
-  left: 782px;
-  top: 0px;
-  overflow: hidden;
-}
-#group-39478 {
-  position: absolute;
-  inset: 0;
-}
-#rectangle-656 {
-  background: #ffffff;
-  border-radius: 16px;
-  width: 315px;
-  height: 224px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-#material-symbols-campaign-outline {
-  position: absolute;
-  left: 74px;
-  top: -7px;
-  overflow: visible;
-}
-#_50-campaigns {
-  text-align: left;
-  font: 700 48px/72px "Cambay", sans-serif;
-  position: absolute;
-  left: 28px;
-  top: 40px;
-}
-#_50-campaigns-span {
-  color: #e0156a;
-  font: 700 48px/72px "Cambay", sans-serif;
-}
-#_50-campaigns-span2 {
-  color: var(--heading, #666666);
-  font: 700 48px/72px "Cambay", sans-serif;
-}
-#reminder {
-  background: #f7f7f7;
-  border-radius: 16px;
-  padding: 80px 120px 80px 120px;
-  display: flex;
-  flex-direction: column;
-  gap: 60px;
-  align-items: center;
-  justify-content: flex-start;
-  position: absolute;
-  left: calc(50% - 466px);
-  top: 4638px;
+#impact #users-3-span2,
+#impact #_50-campaigns-span2,
+#impact #hk-20-million-raised-span2,
+#impact #gift-waste-saved {
+  color: var(--heading);
 }
 
-#frame-60 {
-  display: flex;
-  flex-direction: row;
-  gap: 16px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-#frame-59 {
-  border-style: solid;
-  border-color: #666666;
-  border-width: 1px;
-  padding: 10px 240px 10px 16px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  position: relative;
-}
-#email-address {
-  color: #999999;
-  text-align: left;
-  font: var(--cta-text, 500 16px/20px "Karla", sans-serif);
-  position: relative;
-}
-#button-remind-me {
-  background: #e0156a;
-  border-style: solid;
-  border-color: #ffffff;
-  border-width: 1px;
-  padding: 10px 28px 10px 28px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  position: relative;
-  overflow: hidden;
-}
-#remind-me {
-  color: #ffffff;
-  text-align: left;
-  font: var(--cta-text, 500 16px/20px "Karla", sans-serif);
-  position: relative;
-}
-#footer {
-  background: #676665;
-  width: 1440px;
-  height: 747px;
-  position: absolute;
-  left: 0px;
-  top: 5348px;
-}
-#group-39467 {
-  position: absolute;
-  inset: 0;
-}
-#frame-19 {
-  display: flex;
-  flex-direction: column;
-  gap: 28px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  position: absolute;
-  left: 737px;
-  top: 80px;
-}
-#about-us {
-  color: #ffffff;
-  text-align: left;
-  font: var(--heading-3, 500 20px/22px "Karla", sans-serif);
-  position: relative;
-}
-#press {
-  color: #ffffff;
-  text-align: left;
-  font: var(--heading-3, 500 20px/22px "Karla", sans-serif);
-  position: relative;
-}
-#fa-qs {
-  color: #ffffff;
-  text-align: left;
-  font: var(--heading-3, 500 20px/22px "Karla", sans-serif);
-  position: relative;
-}
-#contact-us {
-  color: #ffffff;
-  text-align: left;
-  font: var(--heading-3, 500 20px/22px "Karla", sans-serif);
-  position: relative;
-}
-#frame-20 {
-  display: flex;
-  flex-direction: column;
-  gap: 28px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  position: absolute;
-  left: 954px;
-  top: 80px;
-}
-#privacy-policy {
-  color: #ffffff;
-  text-align: left;
-  font: var(--heading-3, 500 20px/22px "Karla", sans-serif);
-  position: relative;
-}
-#terms-of-service {
-  color: #ffffff;
-  text-align: left;
-  font: var(--heading-3, 500 20px/22px "Karla", sans-serif);
-  position: relative;
-}
-#frame-18 {
-  display: flex;
-  flex-direction: column;
-  gap: 80px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  position: absolute;
-  left: 285px;
-  top: 80px;
-}
-#frame-16 {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-#follow-us {
-  color: #ffffff;
-  text-align: left;
-  font: var(--heading-1, 700 36px/43px "Cambay", sans-serif);
-  position: relative;
-}
-#social-media-container {
-  display: flex;
-  flex-direction: row;
-  gap: 24px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-#social-media-icon-square-facebook {
-  flex-shrink: 0;
-  position: relative;
-  overflow: visible;
-}
-#social-media-icon-square-instagram {
-  flex-shrink: 0;
-  position: relative;
-  overflow: visible;
-}
-#social-media-icon-square-you-tube {
-  flex-shrink: 0;
-  width: 48px;
-  height: 48px;
-  position: relative;
+@media (max-width: 991px) {
+  #impact #users {
+    width: auto;
+    height: 246px;
+  }
+  #impact #fund {
+    width: auto;
+    height: 160px;
+  }
+  #impact #earth {
+    width: auto;
+    height: 246px;
+  }
+  #impact #campaign {
+    width: auto;
+    height: 160px;
+  }
+  #impact #users .card-img .d-flex {
+    height: 120px;
+  }
+  #impact #fund .card-img {
+    width: 156px;
+    height: 153px;
+    position: absolute;
+    text-align: start;
+    top: 0px;
+    left: -15px;
+  }
+
+  #impact #earth .card-img {
+    width: 210px;
+    height: 210px;
+    position: absolute;
+    text-align: end;
+    top: 83px;
+    right: 0px;
+  }
+
+  #impact #campaign .card-img {
+    width: 156px;
+    height: 145px;
+    position: absolute;
+    text-align: end;
+    top: 15px;
+    right: 0px;
+  }
 }
 
-#frame-17 {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
+@media (min-width: 992px) {
+  #impact #frame-57 {
+    width: 1099px;
+  }
+  #impact #users {
+    width: 762px;
+    height: 352px;
+  }
+  #impact #fund {
+    width: 762px;
+    height: 208px;
+  }
+  #impact #earth {
+    width: 315px;
+    height: 336px;
+  }
+  #impact #campaign {
+    width: 315px;
+    height: 224px;
+  }
+  #impact #users .card-img .d-flex {
+    width: auto;
+    height: 160px;
+  }
+  #impact #fund .card-img {
+    position: absolute;
+    text-align: start;
+    top: -8px;
+    left: 0px;
+  }
+  #impact #earth .card-img {
+    position: absolute;
+    text-align: start;
+    top: 189px;
+    left: 105px;
+  }
+  #impact #campaign .card-img {
+    position: absolute;
+    text-align: start;
+    top: -7px;
+    left: 74px;
+  }
 }
-#support-us {
-  color: #ffffff;
-  text-align: left;
-  font: var(--heading-1, 700 36px/43px "Cambay", sans-serif);
-  position: relative;
-}
-#button-make-donation {
-  background: #ffffff;
-  border-style: solid;
-  border-color: #e0156a;
-  border-width: 1px;
-  padding: 10px 28px 10px 28px;
-  display: flex;
-  flex-direction: row;
-  gap: 12px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  position: relative;
-  overflow: hidden;
-}
-#make-donation {
-  color: #e0156a;
-  text-align: left;
-  font: var(--cta-text, 500 16px/20px "Karla", sans-serif);
-  position: relative;
-}
-#copyright-twopresents-2023 {
-  color: #ffffff;
-  text-align: left;
-  font: var(--body-text, 400 16px/22px "Karla", sans-serif);
-  position: absolute;
-  left: calc(50% - 111px);
-  bottom: 74px;
-}
-#payment {
-  display: flex;
-  flex-direction: row;
-  gap: 16px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  position: absolute;
-  left: 733px;
-  top: 350px;
-}
-#cc-visa-1 {
-  flex-shrink: 0;
-  position: relative;
-  overflow: visible;
-}
-#cc-mastercard-1 {
-  flex-shrink: 0;
-  position: relative;
-  overflow: visible;
-}
-#cc-paypal-1 {
-  flex-shrink: 0;
-  position: relative;
-  overflow: visible;
-}
-#frame-63 {
-  background: #ffffff;
-  border-radius: 16px;
-  padding: 24px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  width: 982px;
-  position: absolute;
-  left: 285px;
-  top: 462px;
-}
-#frame-64 {
-  padding: 0px 8px 0px 8px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-#media-image-2 {
-  flex-shrink: 0;
-  width: 135px;
-  height: 41px;
-  position: relative;
-}
-#media-image-3 {
-  flex-shrink: 0;
-  width: 139px;
-  height: 70px;
-  position: relative;
-}
-#media-image-4 {
-  flex-shrink: 0;
-  width: 275px;
-  height: 76px;
-  position: relative;
-}
-#media-image-5 {
-  flex-shrink: 0;
-  width: 269px;
-  height: 77px;
-  position: relative;
-}
-
-#occasions {
-  display: flex;
-  flex-direction: column;
-  gap: 60px;
-  align-items: center;
-  justify-content: flex-start;
-  position: absolute;
-  left: 172px;
-  top: 1857px;
-}
-
-#frame-70 {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
-  flex-shrink: 0;
-  width: 1096px;
-  position: relative;
-}
-
-#rectangle-662 {
-  flex-shrink: 0;
-  width: 245px;
-  height: 245px;
-  position: relative;
-}
-
-
-#frame-75 {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
-  flex-shrink: 0;
-  width: 1090px;
-  position: relative;
-}
-
-#rectangle-658 {
-  flex-shrink: 0;
-  width: 300px;
-  height: 300px;
-  position: relative;
-}
-
-#frame-73 {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-#rectangle-659 {
-  flex-shrink: 0;
-  width: 300px;
-  height: 300px;
-  position: relative;
-}
-
-
-#mask-group2 {
-  flex-shrink: 0;
-  width: 300px;
-  height: 300px;
-  position: static;
-}
-#rectangle-660 {
-  width: 300px;
-  height: 300px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-#whats-app-image-2023-09-01-at-12-42-1 {
-  width: 414px;
-  height: 300px;
-  position: absolute;
-  left: -57px;
-  top: 0px;
-}
-#save-the-environment-and-reduce-gift-waste {
-  color: var(--heading, #666666);
-  text-align: center;
-  font: var(--heading-3, 500 20px/22px "Karla", sans-serif);
-  position: relative;
-  width: 301px;
-}
-
-#auto-layout-horizontal2 {
-  display: flex;
-  flex-direction: row;
-  gap: 48px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-
-
-#style-outlined {
-  border-radius: 50px;
-  border-style: solid;
-  border-color: transparent;
-  border-width: 1px;
-  padding: 10px 28px 10px 28px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  position: relative;
-  overflow: hidden;
-}
-
-#button-primary {
-  background: #e0156a;
-  border-style: solid;
-  border-color: #ffffff;
-  border-width: 1px;
-  padding: 10px 28px 10px 28px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  position: relative;
-  overflow: hidden;
-} */

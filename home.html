@@ -9,92 +9,65 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <!-- <style>
-      a,
-      button,
-      input,
-      select,
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      * {
-        margin: 0;
-        padding: 0;
-        border: none;
-        text-decoration: none;
-        appearance: none;
-        background: none;
-      }
-    </style> -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/vars.css" />
     <title>TwoPresents</title>
   </head>
   <body>
-    <div class="container-md p-0 m-auto" id="homepage-design">
-      <div class="container-fluid" id="frame-79">
+    <div class="container p-0 m-auto" id="homepage-design">
+      <div class="container m-auto" id="frame-79">
         <!-- navigation bar -->
-        <nav class="navbar navbar-expand-lg" id="nav-bar">
-          <div class="container-fluid p-0" id="frame-1">
-            <a class="navbar-brand p-0 m-0" href="#">
-              <img id="tp-logo-3" src="src/img/tp-logo-3.png" alt="Your Logo" />
+        <nav class="navbar navbar-expand-lg p-0" id="nav-bar">
+          <div
+            class="container-fluid w-100 h-100 mb-3 mb-lg-0 p-0 py-lg-3"
+            id="frame-1"
+          >
+            <a class="navbar-brand w-auto h-100 p-0 m-0" href="#">
+              <img
+                class="img-fluid object-fit-contain w-auto h-100"
+                id="tp-logo-3"
+                src="src/img/tp-logo-3.png"
+                alt="Your Logo"
+              />
             </a>
             <button
-              class="navbar-toggler me-4"
+              class="navbar-toggler p-0 me-4"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNav"
               aria-controls="navbarNav"
-              aria-expanded="true"
+              aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <img src="/src/img/mdi_menu.svg" />
+              <span class="navbar-toggler-icon"></span>
             </button>
-            <div
-              class="navbar-collapse collapse mt-3 mt-lg-0 mb-4 mb-lg-0"
-              id="navbarNav"
-            >
+            <div class="navbar-collapse collapse text-center" id="navbarNav">
               <ul
-                class="navbar-nav align-items-center mt-3 mt-lg-0 ms-lg-auto gap-4 gap-lg-5"
+                class="navbar-nav ms-auto gap-4 gap-lg-5"
                 id="auto-layout-horizontal2"
               >
                 <li class="nav-item">
-                  <a
-                    class="nav-link text-center main-nav"
-                    href="#"
-                    id="how-it-works3"
+                  <a class="nav-link main-nav" href="#" id="how-it-works3"
                     >How It Works</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-center main-nav" href="#" id="cards"
-                    >Cards</a
-                  >
+                  <a class="nav-link main-nav" href="#" id="cards">Cards</a>
                 </li>
                 <li class="nav-item">
-                  <a
-                    class="nav-link text-center main-nav"
-                    href="#"
-                    id="charities"
+                  <a class="nav-link main-nav" href="#" id="charities"
                     >Charities</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a
-                    class="nav-link text-center main-nav"
-                    href="#"
-                    id="gift-ideas"
+                  <a class="nav-link main-nav" href="#" id="gift-ideas"
                     >Gift Ideas</a
                   >
                 </li>
               </ul>
               <div class="d-flex border mt-4 mb-4"></div>
 
-              <ul
-                class="navbar-nav align-items-center ms-lg-auto gap-4 gap-lg-3"
-              >
+              <ul class="navbar-nav align-items-center ms-auto gap-4 gap-lg-3">
                 <li class="nav-item">
                   <a class="nav-link text-center fields" href="#" id="log-in"
                     >Log In</a
@@ -110,25 +83,25 @@
       </div>
       <!-- hero section -->
       <div
-        class="row text-center align-items-center mt-3 gap-3 gap-lg-5"
+        class="d-flex flex-column flex-lg-row text-center justify-content-between align-items-center mx-3 m-lg-auto row-gap-4 column-gap-5"
         id="hero"
       >
-        <div class="col-lg p-0" id="hero-image">
+        <div class="w-auto h-auto" id="hero-image">
           <img
-            class="img-fluid rounded-4"
+            class="img-fluid object-fit-contain w-auto h-100 rounded-4"
             id="whats-app-image-2023-07-26-at-11-03-1"
             src="src/img/whats-app-image-2023-07-26-at-11-03-1.png"
           />
         </div>
         <div
-          class="col-lg d-flex flex-column row-gap-4 m-0 p-0 align-items-center align-items-lg-start text-lg-start"
+          class="d-flex flex-column align-items-center align-items-lg-start text-lg-start row-gap-4"
           id="hero-message"
         >
-          <div class="p-0 m-0" id="auto-layout-vertical">
+          <div class="d-flex flex-column row-gap-3" id="auto-layout-vertical">
             <div id="auto-layout-vertical2">
-              <div class="headline" id="one-for-you-one-for-charity">
+              <h1 class="headline1" id="one-for-you-one-for-charity">
                 One for you<br />One for charity
-              </div>
+              </h1>
             </div>
             <h3
               id="combine-event-invitations-with-charitable-giving-share-joy-with-charities-you-love"
@@ -144,22 +117,28 @@
         </div>
       </div>
       <!-- main section1 -->
-      <div class="container-fluid p-0 text-center my-5" id="how-it-works">
+      <div class="d-flex flex-column text-center m-auto my-5" id="how-it-works">
         <div id="frame-3">
           <h1 id="how-it-works2">How It Works</h1>
         </div>
         <div
-          class="d-flex flex-column flex-lg-row justify-content-center align-items-center align-items-lg-start gap-5"
+          class="d-flex flex-column flex-lg-row justify-content-between align-items-center align-items-lg-start gap-4"
           id="frame-7"
         >
-          <div class="d-flex flex-column text-center p-0" id="frame-4">
+          <div class="d-flex flex-column align-items-center p-0" id="frame-4">
             <div id="frame-31">
-              <div class="d-inline-flex align-items-center gap-2" id="frame-65">
-                <div class="fields" id="steps">
-                  <img src="src/img/Ellipse 162.svg" id="ellipse-162" />
-                  <div id="_1">1</div>
+              <div
+                class="d-inline-flex align-items-center w-100 h-100 gap-2"
+                id="frame-65"
+              >
+                <div class="ellipse" id="steps">
+                  <span id="_1">1</span>
                 </div>
-                <img id="send-invite-1" src="src/img/send-invite-1.png" />
+                <img
+                  class="img-fluid object-fit-contain w-auto h-100"
+                  id="send-invite-1"
+                  src="src/img/send-invite-1.png"
+                />
               </div>
             </div>
             <h2 id="invite">Invite</h2>
@@ -167,14 +146,20 @@
               Create your invitation and share with guests
             </h4>
           </div>
-          <div class="d-flex flex-column text-center p-0" id="frame-6">
+          <div class="d-flex flex-column align-items-center p-0" id="frame-6">
             <div id="frame-32">
-              <div class="d-inline-flex align-items-center gap-2" id="frame-66">
-                <div class="fields" id="steps">
-                  <img src="src/img/Ellipse 162.svg" id="ellipse-162" />
-                  <div id="_2">2</div>
+              <div
+                class="d-inline-flex align-items-center w-100 h-100 gap-2"
+                id="frame-66"
+              >
+                <div class="ellipse" id="steps">
+                  <span id="_2">2</span>
                 </div>
-                <img id="collect-money-1" src="src/img/collect-money-1.png" />
+                <img
+                  class="img-fluid object-fit-contain w-auto h-100"
+                  id="collect-money-1"
+                  src="src/img/collect-money-1.png"
+                />
               </div>
             </div>
             <h2 id="collect">Collect</h2>
@@ -185,14 +170,20 @@
               individual gifts
             </h4>
           </div>
-          <div class="d-flex flex-column text-center p-0" id="frame-5">
+          <div class="d-flex flex-column align-items-center p-0" id="frame-5">
             <div id="frame-33">
-              <div class="d-inline-flex align-items-center gap-2" id="frame-67">
-                <div class="fields" id="steps">
-                  <img src="src/img/Ellipse 162.svg" id="ellipse-162" />
-                  <div id="_3">3</div>
+              <div
+                class="d-inline-flex align-items-center w-100 h-100 gap-2"
+                id="frame-67"
+              >
+                <div class="ellipse" id="steps">
+                  <span id="_3">3</span>
                 </div>
-                <img id="share-the-joy-1" src="src/img/share-the-joy-1.png" />
+                <img
+                  class="img-fluid object-fit-contain w-auto h-100"
+                  id="share-the-joy-1"
+                  src="src/img/share-the-joy-1.png"
+                />
               </div>
             </div>
             <h2 id="share">Share</h2>
@@ -213,30 +204,48 @@
         </div>
       </div>
       <!-- main seciton2 -->
-      <div class="d-flex flex-column text-center my-5" id="missions">
-        <h1 class="mb-lg-5" id="our-missions">Our Missions</h1>
+      <div
+        class="d-flex flex-column text-center m-auto row-gap-4 row-gap-lg-5 my-5"
+        id="missions"
+      >
+        <h1 id="our-missions">Our Missions</h1>
         <div
-          class="d-flex flex-column flex-xl-row justify-content-center align-items-center gap-5"
+          class="d-flex flex-column flex-lg-row justify-content-between align-items-center align-items-lg-start gap-4"
           id="frame-75"
         >
-          <div class="d-flex flex-column p-0 m-0 row-gap-3" id="frame-72">
-            <img id="rectangle-658" src="src/img/rectangle-658.png" />
+          <div
+            class="d-flex flex-column p-0 m-0 row-gap-3 overflow-hidden align-items-center"
+            id="frame-72"
+          >
+            <img
+              class="img-fluid"
+              id="rectangle-658"
+              src="src/img/rectangle-658.png"
+            />
             <h3 id="get-your-dream-gift-from-all-your-friends">
               Get your dream gift from all your friends
             </h3>
           </div>
-          <div class="d-flex flex-column p-0 m-0 row-gap-3" id="frame-73">
-            <img id="rectangle-659" src="src/img/rectangle-659.png" />
+          <div
+            class="d-flex flex-column p-0 m-0 row-gap-3 overflow-hidden align-items-center"
+            id="frame-73"
+          >
+            <img
+              class="img-fluid"
+              id="rectangle-659"
+              src="src/img/rectangle-659.png"
+            />
             <h3 id="give-back-to-charity-and-support-people-in-need">
               Give back to charity and support people in need
             </h3>
           </div>
           <div
-            class="d-flex flex-column p-0 m-0 row-gap-3 overflow-hidden"
+            class="d-flex flex-column p-0 m-0 row-gap-3 overflow-hidden align-items-center"
             id="frame-74"
           >
             <div id="mask-group2">
               <img
+                class="`img-fluid"
                 id="whats-app-image-2023-09-01-at-12-42-1"
                 src="src/img/whats-app-image-2023-09-01-at-12-42-1.png"
               />
@@ -247,37 +256,53 @@
           </div>
         </div>
       </div>
-
       <!-- main section3 -->
-      <div class="d-flex flex-column text-center" id="occasions">
-        <h1 class="mb-lg-5" id="twopresents-for-any-occasion">
-          Twopresents for Any Occasion
-        </h1>
+      <div
+        class="d-flex flex-column text-center m-auto row-gap-4 row-gap-lg-5 my-5"
+        id="occasions"
+      >
+        <h1 id="twopresents-for-any-occasion">Twopresents for Any Occasion</h1>
         <div
-          class="d-flex flex-column flex-xl-row justify-content-center align-items-center align-items-xl-start gap-4"
+          class="d-flex flex-column flex-lg-row justify-content-between align-items-center align-items-lg-start gap-4"
           id="frame-70"
         >
           <div class="d-flex flex-column p-0 m-0 row-gap-3" id="frame-68">
             <div class="container">
-              <img id="rectangle-662-1" src="src/img/rectangle-662-1.png" />
+              <img
+                class="img-fluid"
+                id="rectangle-662-1"
+                src="src/img/rectangle-662-1.png"
+              />
             </div>
             <h3 id="baby-shower">Baby Shower</h3>
           </div>
           <div class="d-flex flex-column p-0 m-0 row-gap-3" id="frame-69">
             <div class="container">
-              <img id="rectangle-662-2" src="src/img/rectangle-662-2.png" />
+              <img
+                class="img-fluid"
+                id="rectangle-662-2"
+                src="src/img/rectangle-662-2.png"
+              />
             </div>
             <h3 id="kids-grown-up-birthdays">Kids &amp; Grown Up Birthdays</h3>
           </div>
           <div class="d-flex flex-column p-0 m-0 row-gap-3" id="frame-702">
             <div class="container">
-              <img id="rectangle-662-3" src="src/img/rectangle-662-3.png" />
+              <img
+                class="img-fluid"
+                id="rectangle-662-3"
+                src="src/img/rectangle-662-3.png"
+              />
             </div>
             <h3 id="leaving-parties">Leaving Parties</h3>
           </div>
           <div class="d-flex flex-column p-0 m-0 row-gap-3" id="frame-71">
             <div class="container">
-              <img id="rectangle-662" src="src/img/rectangle-662.png" />
+              <img
+                class="img-fluid"
+                id="rectangle-662"
+                src="src/img/rectangle-662.png"
+              />
             </div>
             <h3 id="weddings">Weddings</h3>
           </div>
@@ -285,25 +310,28 @@
       </div>
       <!-- impact section -->
       <div class="container-fluid p-0" id="impact">
-        <div class="d-flex flex-column text-center m-auto" id="frame-57">
+        <div
+          class="d-flex flex-column text-center m-2 m-lg-auto py-4 py-lg-5 row-gap-4 row-gap-lg-5"
+          id="frame-57"
+        >
           <h1>Our Impact</h1>
           <div class="d-flex flex-column d-lg-block" id="impact-grids">
             <div
-              class="card d-inline-flex float-start overflow-hidden order-0 justify-content-center p-0 mb-3 mb-lg-4"
+              class="card d-inline-flex float-start overflow-hidden order-0 justify-content-center p-0 mb-3 mb-lg-3"
               id="users"
             >
               <div
                 class="d-flex flex-column p-0 justify-content-center align-items-center"
                 id="rectangle-654"
               >
-                <div class="card-title d-none" id="users2">
+                <div class="card-title d-none headline1" id="users2">
                   <div
                     id="_20-30-80-600-800-2-000-5-000-8-000-12-000-13-000-14-000-16-000-18-000-19-000-20-000"
                   >
                     20<br />30<br />80<br />600<br />800<br />2,000<br />5,000<br />8,000<br />12,000<br />13,000<br />14,000<br />16,000<br />18,000<br />19,000<br />20,000
                   </div>
                 </div>
-                <div class="card-title" id="users3">
+                <div class="card-title headline1" id="users3">
                   <span
                     ><span id="users-3-span">+</span
                     ><span id="users-3-span2"> Users</span></span
@@ -380,7 +408,7 @@
               </div>
             </div>
             <div
-              class="card d-inline-flex float-start overflow-hidden order-2 justify-content-start p-0 mb-3 mb-lg-4"
+              class="card d-inline-flex float-start overflow-hidden order-2 justify-content-start p-0 mb-3 mb-lg-3"
               id="fund"
             >
               <div class="card-img p-0" id="group-39476">
@@ -404,7 +432,7 @@
                 class="card-img-overlay d-flex flex-column p-0 justify-content-center align-items-center"
                 id="rectangle-655"
               >
-                <div class="card-title" id="hk-20-million-raised">
+                <div class="card-title headline1" id="hk-20-million-raised">
                   <span
                     ><span id="hk-20-million-raised-span">HK$20+ million</span
                     ><span id="hk-20-million-raised-span2"> Raised</span></span
@@ -413,7 +441,7 @@
               </div>
             </div>
             <div
-              class="card d-inline-flex float-none overflow-hidden order-1 justify-content-start p-0 mb-3 ms-lg-3 mb-lg-4"
+              class="card d-inline-flex float-none overflow-hidden order-1 justify-content-start p-0 mb-3 ms-lg-3 mb-lg-3"
               id="campaign"
             >
               <div class="card-img p-0" id="group-39478">
@@ -437,7 +465,7 @@
                 class="card-img-overlay d-flex flex-column p-0 justify-content-center align-items-center"
                 id="rectangle-656"
               >
-                <div class="card-title" id="_50-campaigns">
+                <div class="card-title headline1" id="_50-campaigns">
                   <span
                     ><span id="_50-campaigns-span">50+</span
                     ><span id="_50-campaigns-span2">
@@ -448,7 +476,7 @@
               </div>
             </div>
             <div
-              class="card d-inline-flex float-none overflow-hidden order-3 justify-content-start p-0 mb-3 ms-lg-3 mb-lg-4"
+              class="card d-inline-flex float-none overflow-hidden order-3 justify-content-start p-0 mb-3 ms-lg-3 mb-lg-3"
               id="earth"
             >
               <div class="card-img p-0" id="group-39477">
@@ -472,13 +500,15 @@
                 class="card-img-overlay d-flex flex-column p-0 justify-content-center align-items-center"
                 id="rectangle-657"
               >
-                <div id="_10-tons">
+                <div class="headline1" id="_10-tons">
                   <span
                     ><span id="_10-tons-span">10+ tons</span
                     ><span id="_10-tons-span2"> </span
                   ></span>
                 </div>
-                <div id="gift-waste-saved">gift waste<br />saved</div>
+                <div class="headline2" id="gift-waste-saved">
+                  gift waste<br />saved
+                </div>
               </div>
             </div>
           </div>
