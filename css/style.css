@@ -199,11 +199,11 @@ a:active {
   box-shadow: none;
 }
 .navbar-toggler[aria-expanded="false"] span {
-  background-image: url(/src/img/mdi_menu.svg);
+  background-image: url(../src/img/mdi_menu.svg);
 }
 
 .navbar-toggler[aria-expanded="true"] span {
-  background-image: url(/src/img/ic_baseline-close.svg);
+  background-image: url(../src/img/ic_baseline-close.svg);
 }
 @media (max-width: 991px) {
   #nav-bar {
