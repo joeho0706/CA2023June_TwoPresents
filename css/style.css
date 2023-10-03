@@ -64,11 +64,7 @@ charities > territories */
   }
   /* titles of cards & charities in cards/ charity main pages */
   .body-text {
-    font-family: "Karla", sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    margin-top: 0; /* space above text */
-    line-height: 22px; /* leading */
+    font: var(--body-text);
     letter-spacing: 0px; /* tracking */
   }
   /* get started text felds */
@@ -198,11 +194,7 @@ charities > territories */
   }
   /* titles of cards & charities in cards/ charity main pages */
   .body-text {
-    font-family: "Karla", sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    margin-top: 0; /* space above text */
-    line-height: 22px; /* leading */
+    font: var(--body-text);
     letter-spacing: 0px; /* tracking */
   }
   /* get started text felds */
@@ -279,6 +271,20 @@ charities > territories */
 .cta-button:active {
   background-color: var(--sub-nav-btn-hover);
 }
+.small-button {
+  width: 102px;
+  height: 40px;
+  padding: 10px 28px 10px 28px;
+  border: 1px;
+  border-radius: 0px;
+  background-color: var(--brand-color);
+}
+.small-button:hover {
+  background-color: var(--sub-nav-btn-hover);
+}
+.small-button:active {
+  background-color: var(--sub-nav-btn-hover);
+}
 a {
   color: var(--brand-color);
 }
@@ -288,19 +294,14 @@ a:hover {
 a:active {
   color: var(--second-lv-category-nav);
 }
-
-#homepage-design,
-#homepage-design * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+.navbar .nav-link {
+  color: var(--second-lv-category-nav);
 }
-#homepage-design {
-  background: #ffffff;
-  overflow: hidden;
+.navbar .nav-link:hover {
+  color: var(--brand-color);
 }
-.navbar {
-  background-color: var(--secondary-content-bg);
+.navbar .nav-link:active {
+  color: var(--brand-color);
 }
 .navbar a {
   color: var(--second-lv-category-nav);
@@ -308,7 +309,6 @@ a:active {
 .navbar button {
   color: var(--secondary-content-bg);
 }
-
 .navbar-toggler,
 .navbar-toggler:focus,
 .navbar-toggler:active,
@@ -323,6 +323,23 @@ a:active {
 
 .navbar-toggler[aria-expanded="true"] span {
   background-image: url(../src/img/ic_baseline-close.svg);
+}
+#homepage-design-body {
+  background-color: var(--secondary-content-bg);
+}
+#homepage-design,
+#homepage-design * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#homepage-design {
+  background: var(--secondary-content-bg);
+  overflow: hidden;
+}
+
+#homepage-design-body #frame-79 {
+  background-color: var(--secondary-content-bg);
 }
 @media (max-width: 991px) {
   #nav-bar {
@@ -695,5 +712,331 @@ a:active {
   #impact #fund {
     width: 762px;
     height: 208px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* headline */
+  #get-started .headline1 {
+    font: var(--headline-mobile);
+    letter-spacing: 1px; /* tracking */
+  }
+  /* headline2 */
+  #get-started .headline2 {
+    font: var(--headline-mobile);
+    letter-spacing: 1px; /* tracking */
+  }
+  /* homepage overlay text */
+  #get-started h1 {
+    font: var(--heading-3);
+    letter-spacing: 0.5px; /* tracking */
+  }
+  /* homepage overlay text */
+  #get-started h2 {
+    font: var(--heading-4);
+    letter-spacing: 0px; /* tracking */
+  }
+  /* titles of card categories on the homepage */
+  #get-started h3 {
+    font: var(--heading-4);
+    letter-spacing: 0px; /* tracking */
+  }
+  /* get started title text felds 'Charity Settings' */
+  #get-started h4 {
+    font: var(--body-text);
+    letter-spacing: 0px; /* tracking */
+  }
+  /* all pages/ first level navigation */
+  #get-started .main-nav {
+    font: var(--primary-nav);
+    letter-spacing: 0px; /* tracking */
+  }
+  /* charities/ cards > categories
+charities > territories */
+  #get-started .secondary-nav {
+    font-family: "Karla", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 0; /* space above text */
+    line-height: 16px; /* leading */
+    letter-spacing: 10px; /* tracking */
+  }
+  /* get strated > customize & send */
+  #get-started .progress-bar {
+    font-family: "Karla", sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 0; /* space above text */
+    line-height: 18px; /* leading */
+    letter-spacing: 10px; /* tracking */
+  }
+  /* titles of cards & charities in cards/ charity main pages */
+  #get-started .body-text {
+    font: var(--body-text);
+    letter-spacing: 0px; /* tracking */
+  }
+  /* get started text felds */
+  #get-started .fields {
+    font: var(--cta-text);
+    letter-spacing: 0px; /* tracking */
+  }
+  /* titles of cards & charities in cards/ charity main pages */
+  #get-started .card-or-charity-titles {
+    font-family: "Karla", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 0; /* space above text */
+    line-height: 16px; /* leading */
+    letter-spacing: 0px; /* tracking */
+  }
+  /* charites page > charity accordion preview */
+  #get-started .card-or-charity-preview-body-text {
+    font-family: "Karla", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 0; /* space above text */
+    line-height: 17px; /* leading */
+    letter-spacing: 0px; /* tracking */
+  }
+  /* charites page > charity accordion preview */
+  #get-started .card-or-charity-preview-title-text {
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 0; /* space above text */
+    line-height: 19px; /* leading */
+    letter-spacing: 0px; /* tracking */
+  }
+  /* ellipse-num */
+  #get-started .ellipse-num {
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 0; /* space above text */
+    line-height: 21px; /* leading */
+    letter-spacing: 0px; /* tracking */
+  }
+}
+@media (min-width: 576px) {
+  /* headline */
+  #get-started .headline1 {
+    font-family: "Cambay", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 0; /* space above text */
+    line-height: 58px; /* leading */
+    letter-spacing: 1px; /* tracking */
+  }
+  /* headline2 */
+  #get-started .headline2 {
+    font-family: "Cambay", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 0; /* space above text */
+    line-height: 50px; /* leading */
+    letter-spacing: 1px; /* tracking */
+  }
+  /* homepage overlay text */
+  #get-started h1 {
+    font-family: "Cambay", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 0; /* space above text */
+    line-height: 43px; /* leading */
+    letter-spacing: 1px; /* tracking */
+  }
+  /* homepage overlay text */
+  #get-started h2 {
+    font-family: "Cambay", sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    margin-top: 0; /* space above text */
+    line-height: 34px; /* leading */
+    letter-spacing: 1px; /* tracking */
+  }
+  /* titles of card categories on the homepage */
+  #get-started h3 {
+    font-family: "Karla", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 0; /* space above text */
+    line-height: 22px; /* leading */
+    letter-spacing: 0.5px; /* tracking */
+  }
+  /* get started title text felds 'Charity Settings' */
+  #get-started h4 {
+    font-family: "Karla", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 0; /* space above text */
+    line-height: 21px; /* leading */
+    letter-spacing: 0px; /* tracking */
+  }
+  /* all pages/ first level navigation */
+  #get-started .main-nav {
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 0; /* space above text */
+    line-height: 20px; /* leading */
+    letter-spacing: 0px; /* tracking */
+  }
+  /* charities/ cards > categories
+charities > territories */
+  #get-started .secondary-nav {
+    font-family: "Karla", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 0; /* space above text */
+    line-height: 16px; /* leading */
+    letter-spacing: 10px; /* tracking */
+  }
+  /* get strated > customize & send */
+  #get-started .progress-bar {
+    font-family: "Karla", sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 0; /* space above text */
+    line-height: 18px; /* leading */
+    letter-spacing: 10px; /* tracking */
+  }
+  /* titles of cards & charities in cards/ charity main pages */
+  #get-started .body-text {
+    font: var(--body-text);
+    letter-spacing: 0px; /* tracking */
+  }
+  /* get started text felds */
+  #get-started .fields {
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 0; /* space above text */
+    line-height: 20px; /* leading */
+    letter-spacing: 0px; /* tracking */
+  }
+  /* titles of cards & charities in cards/ charity main pages */
+  #get-started .card-or-charity-titles {
+    font-family: "Karla", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 0; /* space above text */
+    line-height: 16px; /* leading */
+    letter-spacing: 0px; /* tracking */
+  }
+  /* charites page > charity accordion preview */
+  #get-started .card-or-charity-preview-body-text {
+    font-family: "Karla", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 0; /* space above text */
+    line-height: 17px; /* leading */
+    letter-spacing: 0px; /* tracking */
+  }
+  /* charites page > charity accordion preview */
+  #get-started .card-or-charity-preview-title-text {
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 0; /* space above text */
+    line-height: 19px; /* leading */
+    letter-spacing: 0px; /* tracking */
+  }
+  /* ellipse-num */
+  #get-started .ellipse-num {
+    font-family: "Karla", sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 0; /* space above text */
+    line-height: 21px; /* leading */
+    letter-spacing: 0px; /* tracking */
+  }
+}
+
+.list-ellipse {
+  background-image: url(../src/img/Frame.svg);
+  width: 24px;
+  height: 24px;
+}
+
+h1 {
+  color: var(--brand-color);
+}
+h2 {
+  color: var(--heading);
+}
+#get-started h2 {
+  color: var(--brand-color);
+}
+h3 {
+  color: var(--heading);
+}
+h4 {
+  color: var(--heading);
+}
+p {
+  color: var(--body-color);
+}
+#get-started-body {
+  background-color: var(--primary-content-bg);
+}
+#get-started,
+#get-started * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#get-started {
+  background: var(--primary-content-bg);
+  overflow: hidden;
+}
+#get-started-body #frame-79 {
+  background-color: var(--primary-content-bg);
+}
+@media (max-witth: 575px) {
+}
+@media (min-width: 576px) {
+  #heading {
+    margin-top: 112px !important;
+    margin-bottom: 68px !important;
+  }
+}
+
+#card-group button {
+  color: var(--secondary-content-bg);
+}
+#card-group .card {
+  border-color: var(--third-lv-nav-unselected);
+}
+
+@media (max-width: 575px) {
+  #card-group {
+    margin-bottom: 80px !important;
+  }
+
+  #card-group .card {
+    max-width: 358px;
+    height: auto;
+  }
+  #card-group .card-img-top {
+    max-width: 64px;
+    max-height: 64px;
+  }
+  /* #card-group p {
+    max-width: 278px;
+  } */
+}
+@media (min-width: 576px) {
+  #card-group {
+    max-width: 874px;
+    margin-top: 68px !important;
+    margin-bottom: 240px !important;
+  }
+  #card-group .card {
+    width: 427px;
+    height: 600px;
+  }
+
+  #card-group p {
+    max-width: 360px;
   }
 }
