@@ -19,6 +19,7 @@
     />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/vars.css" />
+    <link rel="stylesheet" href="css/infinite_scrolling_animation.css" />
     <title>TwoPresents</title>
   </head>
   <body id="homepage-design-body">
@@ -57,20 +58,22 @@
               id="auto-layout-horizontal2"
             >
               <li class="nav-item mt-3 mt-lg-0 g-5">
-                <a class="nav-link main-nav p-0" href="#" id="how-it-works3"
+                <a class="nav-link primary-nav p-0" href="#" id="how-it-works3"
                   >How It Works</a
                 >
               </li>
               <li class="nav-item mt-3 mt-lg-0 pt-1 pt-lg-0">
-                <a class="nav-link main-nav p-0" href="#" id="cards">Cards</a>
+                <a class="nav-link primary-nav p-0" href="#" id="cards"
+                  >Cards</a
+                >
               </li>
               <li class="nav-item mt-3 mt-lg-0 pt-1 pt-lg-0">
-                <a class="nav-link main-nav p-0" href="#" id="charities"
+                <a class="nav-link primary-nav p-0" href="#" id="charities"
                   >Charities</a
                 >
               </li>
               <li class="nav-item mt-3 mt-lg-0 pt-1 pt-lg-0">
-                <a class="nav-link main-nav p-0" href="#" id="gift-ideas"
+                <a class="nav-link primary-nav p-0" href="#" id="gift-ideas"
                   >Gift Ideas</a
                 >
               </li>
@@ -81,11 +84,14 @@
               class="align-items-center gap-3 mb-2 mb-lg-0 ms-auto mt-4 mt-lg-0 navbar-nav pb-1 pb-lg-0"
             >
               <li class="nav-item mx-1 px-4 py-2">
-                <a class="nav-link text-center fields p-0" href="#" id="log-in"
+                <a
+                  class="nav-link text-center cta-text p-0"
+                  href="#"
+                  id="log-in"
                   >Log In</a
                 >
               </li>
-              <button class="primary-button fields" id="get-started-btn">
+              <button class="primary-button cta-text" id="get-started-btn">
                 GET STARTED
               </button>
             </ul>
@@ -115,7 +121,7 @@
             id="auto-layout-vertical"
           >
             <div id="auto-layout-vertical2">
-              <h1 class="headline1" id="one-for-you-one-for-charity">
+              <h1 class="headline" id="one-for-you-one-for-charity">
                 One for you<br />One for charity
               </h1>
             </div>
@@ -128,7 +134,7 @@
             </h3>
           </div>
 
-          <button class="cta-button fields" id="get-started-btn">
+          <button class="cta-button cta-text" id="get-started-btn">
             GET STARTED
           </button>
         </div>
@@ -154,7 +160,7 @@
                 class="d-inline-flex align-items-center w-100 h-100 gap-2"
                 id="frame-65"
               >
-                <div class="ellipse-num ellipse" id="steps">
+                <div class="steps-text steps-ellipse" id="steps">
                   <span id="_1">1</span>
                 </div>
                 <img
@@ -178,7 +184,7 @@
                 class="d-inline-flex align-items-center w-100 h-100 gap-2"
                 id="frame-66"
               >
-                <div class="ellipse-num ellipse" id="steps">
+                <div class="steps-text steps-ellipse" id="steps">
                   <span id="_2">2</span>
                 </div>
                 <img
@@ -205,7 +211,7 @@
                 class="d-inline-flex align-items-center w-100 h-100 gap-2"
                 id="frame-67"
               >
-                <div class="ellipse-num ellipse" id="steps">
+                <div class="steps-text steps-ellipse" id="steps">
                   <span id="_3">3</span>
                 </div>
                 <img
@@ -222,7 +228,7 @@
               We split the funds: one part is for your gift, the other for your
               charity
             </h4>
-            <div class="fields" id="text-link">
+            <div class="cta-text" id="text-link">
               <div id="see-the-demo">
                 <a href="https://www.youtube.com/watch?v=WNmFPvqHd-8"
                   >See the Demo</a
@@ -363,28 +369,103 @@
             id="impact-grids"
           >
             <div
-              class="border-0 card d-inline-flex float-start justify-content-center justify-content-lg-start mb-3 mb-lg-3 order-0 overflow-hidden p-0 px-2 px-lg-0"
+              class="border-0 card d-inline-flex float-start justify-content-center justify-content-lg-start mb-3 mb-lg-3 order-0 overflow-hidden p-0 px-2 px-lg-0 rounded-4"
               id="users"
             >
               <div
                 class="`align-items-center `justify-content-center align-items-center align-items-lg-start d-flex flex-column flex-lg-fill overflow-hidden p-0"
                 id="rectangle-654"
               >
-                <div class="card-title d-none headline1" id="users2">
+                <div class="card-title d-none odometer" id="users2">
                   <div
                     id="_20-30-80-600-800-2-000-5-000-8-000-12-000-13-000-14-000-16-000-18-000-19-000-20-000"
                   >
                     20<br />30<br />80<br />600<br />800<br />2,000<br />5,000<br />8,000<br />12,000<br />13,000<br />14,000<br />16,000<br />18,000<br />19,000<br />20,000
                   </div>
                 </div>
-                <div class="card-title headline1" id="users3">
+                <div class="card-title caption-1" id="users3">
                   <span
                     ><span id="users-3-span">+</span
                     ><span id="users-3-span2"> Users</span></span
                   >
                 </div>
-                <div class="card-img" id="component-1">
-                  <div class="d-flex" id="frame-53">
+                <div
+                  class="card-img-bottom text-start overflow-hidden rounded-0"
+                  id="component-1"
+                >
+                  <div
+                    class="d-inline-flex position-absolute scroll-primary"
+                    id="frame-53"
+                  >
+                    <img
+                      id="_1-mtwopresents-hong-kong-dog-hker-t-rescue-1"
+                      src="src/img/_1-mtwopresents-hong-kong-dog-hker-t-rescue-1.png"
+                    /><img
+                      id="_20-facebook-1"
+                      src="src/img/_20-facebook-1.png"
+                    /><img
+                      id="_350963269-3478517989072821-8810605381961366536-n-800-800-1"
+                      src="src/img/_350963269-3478517989072821-8810605381961366536-n-800-800-1.png"
+                    /><img id="_1-1" src="src/img/_1-1.png" /><img
+                      id="no-photo-description-available"
+                      src="src/img/no-photo-description-available.png"
+                    /><img
+                      id="_20-facebook-1"
+                      src="src/img/_20-facebook-1.png"
+                    /><img
+                      id="_20-facebook"
+                      src="src/img/_20-facebook.png"
+                    /><img
+                      id="_20-facebook-1"
+                      src="src/img/_20-facebook-1.png"
+                    /><img
+                      id="no-photo-description-available"
+                      src="src/img/no-photo-description-available.png"
+                    /><img
+                      id="may-be-an-image-of-text-that-says-seas-mtwopresents"
+                      src="src/img/may-be-an-image-of-text-that-says-seas-mtwopresents.png"
+                    /><img
+                      id="_20-facebook-2"
+                      src="src/img/_20-facebook-2.png"
+                    /><img
+                      id="_20-facebook"
+                      src="src/img/_20-facebook.png"
+                    /><img
+                      id="_1-mtwopresents-hong-kong-dog-hker-t-rescue-1"
+                      src="src/img/_1-mtwopresents-hong-kong-dog-hker-t-rescue-1.png"
+                    /><img
+                      id="_20-facebook-2"
+                      src="src/img/_20-facebook-2.png"
+                    /><img
+                      id="_350963269-3478517989072821-8810605381961366536-n-800-800-2"
+                      src="src/img/_350963269-3478517989072821-8810605381961366536-n-800-800-2.png"
+                    /><img id="_1-2" src="src/img/_1-2.png" /><img
+                      id="no-photo-description-available"
+                      src="src/img/no-photo-description-available.png"
+                    /><img
+                      id="_20-facebook-1"
+                      src="src/img/_20-facebook-1.png"
+                    /><img
+                      id="_20-facebook"
+                      src="src/img/_20-facebook.png"
+                    /><img
+                      id="_20-facebook-1"
+                      src="src/img/_20-facebook-1.png"
+                    /><img
+                      id="no-photo-description-available"
+                      src="src/img/no-photo-description-available.png"
+                    /><img
+                      id="may-be-an-image-of-text-that-says-seas-mtwopresents"
+                      src="src/img/may-be-an-image-of-text-that-says-seas-mtwopresents.png"
+                    /><img
+                      id="_20-facebook-2"
+                      src="src/img/_20-facebook-2.png"
+                    /><img id="_20-facebook" src="src/img/_20-facebook.png" />
+                  </div>
+                  <div
+                    class="d-inline-flex position-absolute scroll-secondary"
+                    id="frame-531"
+                  >
                     <img
                       id="_1-mtwopresents-hong-kong-dog-hker-t-rescue-1"
                       src="src/img/_1-mtwopresents-hong-kong-dog-hker-t-rescue-1.png"
@@ -454,7 +535,7 @@
               </div>
             </div>
             <div
-              class="card d-inline-flex float-start overflow-hidden order-2 justify-content-start p-0 border-0 mb-3 mb-lg-3"
+              class="border-0 card d-inline-flex float-start justify-content-start mb-3 mb-lg-3 order-2 overflow-hidden p-0 rounded-4"
               id="fund"
             >
               <div class="card-img p-0" id="group-39476">
@@ -478,16 +559,19 @@
                 class="card-img-overlay d-flex flex-column justify-content-center justify-content-lg-start p-0 text-center text-lg-start"
                 id="rectangle-655"
               >
-                <div class="card-title headline1" id="hk-20-million-raised">
+                <div class="card-title" id="hk-20-million-raised">
                   <span
-                    ><span id="hk-20-million-raised-span">HK$20+ million</span
-                    ><span id="hk-20-million-raised-span2"> Raised</span></span
+                    ><span class="odometer" id="hk-20-million-raised-span"
+                      >HK$20+ million</span
+                    ><span class="caption-1" id="hk-20-million-raised-span2">
+                      Raised</span
+                    ></span
                   >
                 </div>
               </div>
             </div>
             <div
-              class="card d-inline-flex float-none overflow-hidden order-1 justify-content-start p-0 border-0 mb-3 ms-lg-3 mb-lg-3"
+              class="border-0 card d-inline-flex float-none justify-content-start mb-3 mb-lg-3 ms-lg-3 order-1 overflow-hidden p-0"
               id="campaign"
             >
               <div class="card-img p-0" id="group-39478">
@@ -511,10 +595,10 @@
                 class="card-img-overlay d-flex flex-column justify-content-center p-0 text-lg-start"
                 id="rectangle-656"
               >
-                <div class="card-title headline1" id="_50-campaigns">
-                  <span class=""
-                    ><span id="_50-campaigns-span">50+</span
-                    ><span id="_50-campaigns-span2">
+                <div class="card-title" id="_50-campaigns">
+                  <span
+                    ><span class="odometer" id="_50-campaigns-span">50+</span
+                    ><span class="caption-1" id="_50-campaigns-span2">
                       <br />Campaigns</span
                     ></span
                   >
@@ -522,7 +606,7 @@
               </div>
             </div>
             <div
-              class="border-0 card d-inline-flex float-none justify-content-start mb-3 mb-lg-3 ms-lg-3 order-3 overflow-hidden p-0"
+              class="border-0 card d-inline-flex float-none justify-content-start mb-3 mb-lg-3 ms-lg-3 order-3 overflow-hidden p-0 rounded-4"
               id="earth"
             >
               <div class="card-img p-0" id="group-39477">
@@ -546,13 +630,13 @@
                 class="card-img-overlay d-flex flex-column m-4 m-lg-0 p-0 p-2 p-lg-0 text-start"
                 id="rectangle-657"
               >
-                <div class="headline1" id="_10-tons">
+                <div class="odometer" id="_10-tons">
                   <span
                     ><span id="_10-tons-span">10+ tons</span
                     ><span id="_10-tons-span2"> </span
                   ></span>
                 </div>
-                <div class="headline2" id="gift-waste-saved">
+                <div class="caption-2" id="gift-waste-saved">
                   gift waste<br />saved
                 </div>
               </div>
