@@ -1,0 +1,1479 @@
+.homepage-design,
+.homepage-design * {
+  box-sizing: border-box;
+}
+.homepage-design {
+  background: #ffffff;
+  width: 1440px;
+  height: 6095px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-79 {
+  background: #ffffff;
+  width: 1440px;
+  height: 82px;
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  overflow: hidden;
+}
+.hero {
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1320px;
+  position: absolute;
+  left: 60px;
+  top: 136px;
+}
+.hero-image {
+  border-radius: 24px;
+  flex-shrink: 0;
+  width: 649px;
+  height: 411px;
+  position: relative;
+  overflow: hidden;
+}
+.whats-app-image-2023-07-26-at-11-03-1 {
+  width: 649px;
+  height: 411px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.hero-message {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.auto-layout-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.auto-layout-vertical2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.one-for-you-one-for-charity {
+  color: #e0156a;
+  text-align: left;
+  font: var(--headline, 700 48px/58px "Cambay", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.combine-event-invitations-with-charitable-giving-share-joy-with-charities-you-love {
+  color: var(--body-text, #666666);
+  text-align: left;
+  font: var(--heading-3, 500 20px/22px "Karla", sans-serif);
+  position: relative;
+  align-self: stretch;
+}
+.button {
+  background: #e0156a;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  padding: 16px 48px 16px 48px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.get-started {
+  color: #ffffff;
+  text-align: left;
+  font: var(--cta-text, 500 16px/20px "Karla", sans-serif);
+  position: relative;
+}
+.charities-list {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 172px;
+  top: 3256px;
+}
+.our-charities {
+  color: var(--heading, #666666);
+  text-align: left;
+  font: var(--heading-1, 700 36px/43px "Cambay", sans-serif);
+  position: relative;
+}
+.frame-13 {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-10 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 1098px;
+  position: relative;
+}
+.rectangle-653 {
+  flex-shrink: 0;
+  width: 220px;
+  height: 220px;
+  position: relative;
+}
+.rectangle-651 {
+  flex-shrink: 0;
+  width: 220px;
+  height: 220px;
+  position: relative;
+}
+.rectangle-650 {
+  flex-shrink: 0;
+  width: 220px;
+  height: 220px;
+  position: relative;
+}
+.rectangle-652 {
+  flex-shrink: 0;
+  width: 220px;
+  height: 220px;
+  position: relative;
+}
+.frame-132 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 1098px;
+  position: relative;
+}
+.button-see-all-charities {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #e0156a;
+  border-width: 1px;
+  padding: 10px 28px 10px 28px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: calc(50% - 88px);
+  top: 3915px;
+  overflow: hidden;
+}
+.see-all-charities {
+  color: #e0156a;
+  text-align: left;
+  font: var(--cta-text, 500 16px/20px "Karla", sans-serif);
+  position: relative;
+}
+.featured-in {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1115px;
+  position: absolute;
+  left: calc(50% - 558px);
+  top: 5061px;
+}
+.featured-in2 {
+  color: var(--heading, #666666);
+  text-align: left;
+  font: var(--heading-4, 500 18px/21px "Karla", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.auto-layout-horizontal {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.media-image-1 {
+  flex-shrink: 0;
+  width: 1022px;
+  height: 70px;
+  position: relative;
+}
+.testinomial {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 111px;
+  top: 4077px;
+}
+.what-our-users-say {
+  color: var(--heading, #666666);
+  text-align: left;
+  font: var(--heading-1, 700 36px/43px "Cambay", sans-serif);
+  position: relative;
+}
+.testinomial2 {
+  flex-shrink: 0;
+  width: 1217px;
+  height: 338px;
+  position: relative;
+}
+.frame {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 84px;
+  bottom: 0px;
+}
+.frame-43 {
+  background: #f7f7f7;
+  border-radius: 10px;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.at-our-wedding-we-chose-twopresents-so-that-our-guests-can-choose-to-donate-to-the-organisations-of-our-choices-i-hope-my-kid-would-be-mindful-of-the-beautiful-planet-that-we-re-living-in-and-the-whole-concept-of-gift-giving-can-be-thought-in-a-very-different-way {
+  color: var(--body-text, #666666);
+  text-align: left;
+  font: var(--heading-3, 500 20px/22px "Karla", sans-serif);
+  position: relative;
+  width: 969px;
+}
+.frame-41 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.mask-group {
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+  position: static;
+}
+.ellipse-161 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 249px;
+  top: 0px;
+}
+.screenshot-2023-08-09-21-22-1 {
+  width: 82.16px;
+  height: 82.16px;
+  position: absolute;
+  left: 247.92px;
+  top: -0.54px;
+}
+.robynn-yip-singer-songwriter {
+  color: #666666;
+  text-align: center;
+  font: var(--undefined, 400 16px/22px "Karla", sans-serif);
+  position: relative;
+  width: 578px;
+}
+.robynn-yip-singer-songwriter-span {
+  color: #666666;
+  font: 400 16px/22px "Karla", sans-serif;
+}
+.robynn-yip-singer-songwriter-span2 {
+  color: #666666;
+  font: var(--body-text, 400 16px/22px "Karla", sans-serif);
+}
+.ep-arrow-right {
+  border-radius: 25px;
+  position: absolute;
+  left: 1181px;
+  top: 55px;
+  overflow: visible;
+}
+.ep-arrow-right2 {
+  border-radius: 25px;
+  position: absolute;
+  left: 36px;
+  top: 55px;
+  transform: translate(-36px, 0px);
+  overflow: visible;
+}
+.impact {
+  background: #f7f7f7;
+  padding: 60px 170px 60px 170px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1px;
+  top: 2353px;
+}
+.frame-57 {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.our-impact {
+  color: var(--heading, #666666);
+  text-align: left;
+  font: var(--heading-1, 700 36px/43px "Cambay", sans-serif);
+  position: relative;
+}
+.impact-grids {
+  flex-shrink: 0;
+  width: 1099px;
+  height: 580px;
+  position: relative;
+}
+.users {
+  width: 762px;
+  height: 352px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-654 {
+  background: #ffffff;
+  border-radius: 16px;
+  width: 762px;
+  height: 352px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.users2 {
+  width: 142px;
+  height: 72px;
+  position: absolute;
+  left: calc(50% - 156px);
+  top: 40px;
+  overflow: hidden;
+}
+._20-30-80-600-800-2-000-5-000-8-000-12-000-13-000-14-000-16-000-18-000-19-000-20-000 {
+  color: #e0156a;
+  text-align: right;
+  font: 700 48px/72px "Cambay", sans-serif;
+  position: absolute;
+  left: calc(50% - 71px);
+  top: -1008px;
+}
+.users3 {
+  text-align: right;
+  font: 700 48px/72px "Cambay", sans-serif;
+  position: absolute;
+  left: calc(50% - 14px);
+  top: 40px;
+}
+.users-3-span {
+  color: var(--brand-color, #e0156a);
+  font: 700 48px/72px "Cambay", sans-serif;
+}
+.users-3-span2 {
+  color: var(--heading, #666666);
+  font: 700 48px/72px "Cambay", sans-serif;
+}
+.component-1 {
+  width: 708px;
+  height: 160px;
+  position: absolute;
+  left: 54px;
+  top: 144px;
+  overflow: hidden;
+}
+.frame-53 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 4024px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+._1-mtwopresents-hong-kong-dog-hker-t-rescue-1 {
+  flex-shrink: 0;
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+._20-facebook-1 {
+  flex-shrink: 0;
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+._350963269-3478517989072821-8810605381961366536-n-800-800-1 {
+  flex-shrink: 0;
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+._1-1 {
+  flex-shrink: 0;
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+.no-photo-description-available {
+  flex-shrink: 0;
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+._20-facebook {
+  flex-shrink: 0;
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+.may-be-an-image-of-text-that-says-seas-mtwopresents {
+  flex-shrink: 0;
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+._20-facebook-2 {
+  flex-shrink: 0;
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+._350963269-3478517989072821-8810605381961366536-n-800-800-2 {
+  flex-shrink: 0;
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+._1-2 {
+  flex-shrink: 0;
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+.fund {
+  width: 761px;
+  height: 208px;
+  position: absolute;
+  left: 0px;
+  top: 372px;
+  overflow: hidden;
+}
+.group-39476 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-655 {
+  background: #ffffff;
+  border-radius: 16px;
+  width: 761px;
+  height: 208px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.material-symbols-volunteer-activism-outline-rounded {
+  position: absolute;
+  left: -19px;
+  top: -8px;
+  overflow: visible;
+}
+.hk-20-million-raised {
+  text-align: left;
+  font: 700 48px/72px "Cambay", sans-serif;
+  position: absolute;
+  left: 213px;
+  top: calc(50% - 36px);
+}
+.hk-20-million-raised-span {
+  color: #e0156a;
+  font: 700 48px/72px "Cambay", sans-serif;
+}
+.hk-20-million-raised-span2 {
+  color: var(--heading, #666666);
+  font: 700 48px/72px "Cambay", sans-serif;
+}
+.earth {
+  width: 315px;
+  height: 336px;
+  position: absolute;
+  left: 784px;
+  top: 244px;
+  overflow: hidden;
+}
+.group-39477 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-657 {
+  background: #ffffff;
+  border-radius: 16px;
+  width: 315px;
+  height: 336px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.ion-earth {
+  position: absolute;
+  left: 105px;
+  top: 189px;
+  overflow: visible;
+}
+._10-tons {
+  text-align: left;
+  font: 700 48px/72px "Cambay", sans-serif;
+  position: absolute;
+  left: 24px;
+  top: 24px;
+}
+._10-tons-span {
+  color: #e0156a;
+  font: 700 48px/72px "Cambay", sans-serif;
+}
+._10-tons-span2 {
+  color: var(--heading, #666666);
+  font: 700 48px/72px "Cambay", sans-serif;
+}
+.gift-waste-saved {
+  color: var(--heading, #666666);
+  text-align: left;
+  font: 700 40px/50px "Cambay", sans-serif;
+  position: absolute;
+  left: 20px;
+  top: 96px;
+}
+.campaign {
+  width: 315px;
+  height: 224px;
+  position: absolute;
+  left: 782px;
+  top: 0px;
+  overflow: hidden;
+}
+.group-39478 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-656 {
+  background: #ffffff;
+  border-radius: 16px;
+  width: 315px;
+  height: 224px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.material-symbols-campaign-outline {
+  position: absolute;
+  left: 74px;
+  top: -7px;
+  overflow: visible;
+}
+._50-campaigns {
+  text-align: left;
+  font: 700 48px/72px "Cambay", sans-serif;
+  position: absolute;
+  left: 28px;
+  top: 40px;
+}
+._50-campaigns-span {
+  color: #e0156a;
+  font: 700 48px/72px "Cambay", sans-serif;
+}
+._50-campaigns-span2 {
+  color: var(--heading, #666666);
+  font: 700 48px/72px "Cambay", sans-serif;
+}
+.reminder {
+  background: #f7f7f7;
+  border-radius: 16px;
+  padding: 80px 120px 80px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 466px);
+  top: 4638px;
+}
+.save-twopresents-for-your-next-event {
+  color: var(--heading, #666666);
+  text-align: left;
+  font: var(--heading-1, 700 36px/43px "Cambay", sans-serif);
+  position: relative;
+}
+.frame-60 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-59 {
+  border-style: solid;
+  border-color: #666666;
+  border-width: 1px;
+  padding: 10px 240px 10px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.email-address {
+  color: #999999;
+  text-align: left;
+  font: var(--cta-text, 500 16px/20px "Karla", sans-serif);
+  position: relative;
+}
+.button-remind-me {
+  background: #e0156a;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  padding: 10px 28px 10px 28px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.remind-me {
+  color: #ffffff;
+  text-align: left;
+  font: var(--cta-text, 500 16px/20px "Karla", sans-serif);
+  position: relative;
+}
+.footer {
+  background: #676665;
+  width: 1440px;
+  height: 747px;
+  position: absolute;
+  left: 0px;
+  top: 5348px;
+}
+.group-39467 {
+  position: absolute;
+  inset: 0;
+}
+.frame-19 {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 737px;
+  top: 80px;
+}
+.about-us {
+  color: #ffffff;
+  text-align: left;
+  font: var(--heading-3, 500 20px/22px "Karla", sans-serif);
+  position: relative;
+}
+.press {
+  color: #ffffff;
+  text-align: left;
+  font: var(--heading-3, 500 20px/22px "Karla", sans-serif);
+  position: relative;
+}
+.fa-qs {
+  color: #ffffff;
+  text-align: left;
+  font: var(--heading-3, 500 20px/22px "Karla", sans-serif);
+  position: relative;
+}
+.contact-us {
+  color: #ffffff;
+  text-align: left;
+  font: var(--heading-3, 500 20px/22px "Karla", sans-serif);
+  position: relative;
+}
+.frame-20 {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 954px;
+  top: 80px;
+}
+.privacy-policy {
+  color: #ffffff;
+  text-align: left;
+  font: var(--heading-3, 500 20px/22px "Karla", sans-serif);
+  position: relative;
+}
+.terms-of-service {
+  color: #ffffff;
+  text-align: left;
+  font: var(--heading-3, 500 20px/22px "Karla", sans-serif);
+  position: relative;
+}
+.frame-18 {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 285px;
+  top: 80px;
+}
+.frame-16 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.follow-us {
+  color: #ffffff;
+  text-align: left;
+  font: var(--heading-1, 700 36px/43px "Cambay", sans-serif);
+  position: relative;
+}
+.social-media-container {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.social-media-icon-square-facebook {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.social-media-icon-square-instagram {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.social-media-icon-square-you-tube {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+.group-73 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.frame-17 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.support-us {
+  color: #ffffff;
+  text-align: left;
+  font: var(--heading-1, 700 36px/43px "Cambay", sans-serif);
+  position: relative;
+}
+.button-make-donation {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #e0156a;
+  border-width: 1px;
+  padding: 10px 28px 10px 28px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.make-donation {
+  color: #e0156a;
+  text-align: left;
+  font: var(--cta-text, 500 16px/20px "Karla", sans-serif);
+  position: relative;
+}
+.copyright-twopresents-2023 {
+  color: #ffffff;
+  text-align: left;
+  font: var(--body-text, 400 16px/22px "Karla", sans-serif);
+  position: absolute;
+  left: calc(50% - 111px);
+  bottom: 74px;
+}
+.payment {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 733px;
+  top: 350px;
+}
+.cc-visa-1 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.cc-mastercard-1 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.cc-paypal-1 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-63 {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 982px;
+  position: absolute;
+  left: 285px;
+  top: 462px;
+}
+.frame-64 {
+  padding: 0px 8px 0px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.media-image-2 {
+  flex-shrink: 0;
+  width: 135px;
+  height: 41px;
+  position: relative;
+}
+.media-image-3 {
+  flex-shrink: 0;
+  width: 139px;
+  height: 70px;
+  position: relative;
+}
+.media-image-4 {
+  flex-shrink: 0;
+  width: 275px;
+  height: 76px;
+  position: relative;
+}
+.media-image-5 {
+  flex-shrink: 0;
+  width: 269px;
+  height: 77px;
+  position: relative;
+}
+.how-it-works {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 546px);
+  top: 667px;
+}
+.frame-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.how-it-works2 {
+  color: var(--heading, #666666);
+  text-align: left;
+  font: var(--heading-1, 700 36px/43px "Cambay", sans-serif);
+  position: relative;
+}
+.frame-7 {
+  display: flex;
+  flex-direction: row;
+  gap: 72px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-31 {
+  flex-shrink: 0;
+  width: 316px;
+  height: 316px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-65 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 27px;
+  top: 83px;
+}
+.steps {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+.ellipse-162 {
+  background: #ffffff;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #e0156a;
+  border-width: 1.5px;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+._1 {
+  color: #e0156a;
+  text-align: center;
+  font: 400 24px/21px "Karla", sans-serif;
+  position: absolute;
+  left: 20px;
+  top: 13px;
+}
+.send-invite-1 {
+  flex-shrink: 0;
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+.invite {
+  color: var(--body-text, #666666);
+  text-align: center;
+  font: var(--heading-2, 400 28px/34px "Cambay", sans-serif);
+  position: relative;
+  width: 313px;
+}
+.create-your-invitation-and-share-with-guests {
+  color: var(--body-text, #666666);
+  text-align: center;
+  font: var(--heading-4, 500 18px/21px "Karla", sans-serif);
+  position: relative;
+  width: 313px;
+}
+.frame-6 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-32 {
+  flex-shrink: 0;
+  width: 316px;
+  height: 316px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-66 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 27px;
+  top: 77px;
+}
+._2 {
+  color: #e0156a;
+  text-align: center;
+  font: 400 24px/21px "Karla", sans-serif;
+  position: absolute;
+  left: 17px;
+  top: 13px;
+}
+.collect-money-1 {
+  flex-shrink: 0;
+  width: 150px;
+  height: 162px;
+  position: relative;
+}
+.collect {
+  color: var(--body-text, #666666);
+  text-align: center;
+  font: var(--heading-2, 400 28px/34px "Cambay", sans-serif);
+  position: relative;
+  width: 313px;
+}
+.guests-can-contribute-money-into-a-gift-fund-instead-of-bringing-individual-gifts {
+  color: var(--body-text, #666666);
+  text-align: center;
+  font: var(--heading-4, 500 18px/21px "Karla", sans-serif);
+  position: relative;
+  width: 313px;
+}
+.frame-5 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-33 {
+  flex-shrink: 0;
+  width: 316px;
+  height: 316px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-67 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 27px;
+  top: 93px;
+}
+._3 {
+  color: #e0156a;
+  text-align: center;
+  font: 400 24px/21px "Karla", sans-serif;
+  position: absolute;
+  left: 17px;
+  top: 13px;
+}
+.share-the-joy-1 {
+  flex-shrink: 0;
+  width: 160px;
+  height: 130px;
+  position: relative;
+}
+.share {
+  color: var(--body-text, #666666);
+  text-align: center;
+  font: var(--heading-2, 400 28px/34px "Cambay", sans-serif);
+  position: relative;
+  width: 313px;
+}
+.we-split-the-funds-one-part-is-for-your-gift-the-other-for-your-charity {
+  color: var(--body-text, #666666);
+  text-align: center;
+  font: var(--heading-4, 500 18px/21px "Karla", sans-serif);
+  position: relative;
+  width: 313px;
+}
+.text-link {
+  border-style: solid;
+  border-color: #e0156a;
+  border-width: 0px 0px 1px 0px;
+  flex-shrink: 0;
+  width: 101px;
+  height: 20px;
+  position: relative;
+}
+.see-the-demo {
+  color: #e0156a;
+  text-align: left;
+  font: var(--cta-text, 500 16px/20px "Karla", sans-serif);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.occasions {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 172px;
+  top: 1857px;
+}
+.twopresents-for-any-occasion {
+  color: var(--heading, #666666);
+  text-align: left;
+  font: var(--heading-1, 700 36px/43px "Cambay", sans-serif);
+  position: relative;
+}
+.frame-70 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 1096px;
+  position: relative;
+}
+.frame-68 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.rectangle-662 {
+  flex-shrink: 0;
+  width: 245px;
+  height: 245px;
+  position: relative;
+}
+.baby-shower {
+  color: var(--body-text, #666666);
+  text-align: center;
+  font: var(--heading-3, 500 20px/22px "Karla", sans-serif);
+  position: relative;
+}
+.frame-69 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.kids-grown-up-birthdays {
+  color: var(--body-text, #666666);
+  text-align: center;
+  font: var(--heading-3, 500 20px/22px "Karla", sans-serif);
+  position: relative;
+  width: 189px;
+}
+.frame-702 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.leaving-parties {
+  color: var(--body-text, #666666);
+  text-align: center;
+  font: var(--heading-3, 500 20px/22px "Karla", sans-serif);
+  position: relative;
+}
+.frame-71 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.weddings {
+  color: var(--body-text, #666666);
+  text-align: center;
+  font: var(--heading-3, 500 20px/22px "Karla", sans-serif);
+  position: relative;
+}
+.missions {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 176px;
+  top: 1266px;
+}
+.our-missions {
+  color: var(--heading, #666666);
+  text-align: left;
+  font: var(--heading-1, 700 36px/43px "Cambay", sans-serif);
+  position: relative;
+}
+.frame-75 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 1090px;
+  position: relative;
+}
+.frame-72 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.rectangle-658 {
+  flex-shrink: 0;
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+.get-your-dream-gift-from-all-your-friends {
+  color: var(--heading, #666666);
+  text-align: center;
+  font: var(--heading-3, 500 20px/22px "Karla", sans-serif);
+  position: relative;
+  width: 300px;
+}
+.frame-73 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.rectangle-659 {
+  flex-shrink: 0;
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+.give-back-to-charity-and-support-people-in-need {
+  color: var(--heading, #666666);
+  text-align: center;
+  font: var(--heading-3, 500 20px/22px "Karla", sans-serif);
+  position: relative;
+  width: 300px;
+}
+.frame-74 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.mask-group2 {
+  flex-shrink: 0;
+  width: 300px;
+  height: 300px;
+  position: static;
+}
+.rectangle-660 {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.whats-app-image-2023-09-01-at-12-42-1 {
+  width: 414px;
+  height: 300px;
+  position: absolute;
+  left: -57px;
+  top: 0px;
+}
+.save-the-environment-and-reduce-gift-waste {
+  color: var(--heading, #666666);
+  text-align: center;
+  font: var(--heading-3, 500 20px/22px "Karla", sans-serif);
+  position: relative;
+  width: 301px;
+}
+.nav-bar {
+  background: #ffffff;
+  width: 1320px;
+  height: 84px;
+  position: sticky;
+  left: 60px;
+  top: 0px;
+}
+.frame-1 {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1320px;
+  position: absolute;
+  left: calc(50% - 660px);
+  top: calc(50% - 26px);
+}
+.tp-logo-3 {
+  flex-shrink: 0;
+  width: 204px;
+  height: 52px;
+  position: relative;
+}
+.auto-layout-horizontal2 {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.how-it-works3 {
+  color: #666666;
+  text-align: center;
+  font: var(--primary-nav, 500 16px/20px "Karla", sans-serif);
+  position: relative;
+  width: 104px;
+}
+.cards {
+  color: #666666;
+  text-align: center;
+  font: var(--primary-nav, 500 16px/20px "Karla", sans-serif);
+  position: relative;
+}
+.charities {
+  color: #666666;
+  text-align: center;
+  font: var(--primary-nav, 500 16px/20px "Karla", sans-serif);
+  position: relative;
+}
+.gift-ideas {
+  color: #666666;
+  text-align: center;
+  font: var(--primary-nav, 500 16px/20px "Karla", sans-serif);
+  position: relative;
+}
+.auto-layout-horizontal3 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.style-outlined {
+  border-radius: 50px;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 1px;
+  padding: 10px 28px 10px 28px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.log-in {
+  color: #666666;
+  text-align: left;
+  font: var(--cta-text, 500 16px/20px "Karla", sans-serif);
+  position: relative;
+}
+.button-primary {
+  background: #e0156a;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  padding: 10px 28px 10px 28px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}

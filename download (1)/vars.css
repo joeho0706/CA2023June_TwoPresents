@@ -1,0 +1,20 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --body-text: #666666;
+  --brand-color: #e0156a;
+  --heading: #666666;
+
+  /* Fonts */
+  --headline: 700 48px/58px "Cambay", sans-serif;
+  --heading-2: 400 28px/34px "Cambay", sans-serif;
+  --heading-3: 500 20px/22px "Karla", sans-serif;
+  --heading-4: 500 18px/21px "Karla", sans-serif;
+  --primary-nav: 500 16px/20px "Karla", sans-serif;
+  --body-text: 400 16px/22px "Karla", sans-serif;
+  --cta-text: 500 16px/20px "Karla", sans-serif;
+  --heading-1: 700 36px/43px "Cambay", sans-serif;
+  --headline-mobile: 700 32px/38px "Cambay", sans-serif;
+
+  /* Effects */
+}

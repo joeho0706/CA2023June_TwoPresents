@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en" wtx-context="5417C9DD-F8C1-488B-9EFD-E2E30F25E671">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <title>TwoPresents</title>
+  </head>
+  <body data-new-gr-c-s-check-loaded="14.1126.0" data-gr-ext-installed="">
+    <!-- main seciton2 -->
+    <!-- <div class="container">
+      <div class="d-flex flex-column text-center" id="missions">
+        <div class="mb-lg-5" id="our-missions">Our Missions</div>
+        <div class="row justify-content-center" id="frame-75">
+          <div class="col-lg-4 p-0 m-0" id="frame-72">
+            <img id="rectangle-658" src="src/img/rectangle-658.png" />
+            <div id="get-your-dream-gift-from-all-your-friends">
+              Get your dream gift from all your friends
+            </div>
+          </div>
+          <div class="col-lg-4 p-0 m-0" id="frame-73">
+            <img id="rectangle-659" src="src/img/rectangle-659.png" />
+            <div id="give-back-to-charity-and-support-people-in-need">
+              Give back to charity and support people in need
+            </div>
+          </div>
+          <div class="col-lg-4 p-0 m-0" id="frame-74">
+            <div id="mask-group2">
+              <img
+                id="whats-app-image-2023-09-01-at-12-42-1"
+                src="src/img/whats-app-image-2023-09-01-at-12-42-1.png"
+              />
+            </div>
+            <div id="save-the-environment-and-reduce-gift-waste">
+              Save the environment and reduce gift waste
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <p>this is test!</p>
+    <div class="container">
+      <div class="d-flex flex-column text-center" id="missions">
+        <div class="mb-lg-5" id="our-missions">Our Missions</div>
+        <div
+          class="d-flex flex-column flex-xl-row justify-content-center align-items-center gap-5"
+          id="frame-75"
+        >
+          <div
+            class="d-flex flex-column p-0 m-0 row-gap-3"
+            style="width: 300px"
+            id="frame-72"
+          >
+            <img id="rectangle-658" src="src/img/rectangle-658.png" />
+            <div id="get-your-dream-gift-from-all-your-friends">
+              Get your dream gift from all your friends
+            </div>
+          </div>
+          <div
+            class="d-flex flex-column p-0 m-0 row-gap-3"
+            style="width: 300px"
+            id="frame-73"
+          >
+            <img id="rectangle-659" src="src/img/rectangle-659.png" />
+            <div id="give-back-to-charity-and-support-people-in-need">
+              Give back to charity and support people in need
+            </div>
+          </div>
+          <div
+            class="d-flex flex-column p-0 m-0 row-gap-3 overflow-hidden"
+            style="width: 300px"
+            id="frame-74"
+          >
+            <div id="mask-group2">
+              <img
+                id="whats-app-image-2023-09-01-at-12-42-1"
+                src="src/img/whats-app-image-2023-09-01-at-12-42-1.png"
+              />
+            </div>
+            <div id="save-the-environment-and-reduce-gift-waste">
+              Save the environment and reduce gift waste
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./js/infinite_scrolling_animation.js"
+    ></script>
+    <script type="text/javascript" src="./js/number_counter.js"></script>
+    <!-- Code injected by live-server -->
+    <script>
+      // <![CDATA[  <-- For SVG support
+      if ("WebSocket" in window) {
+        (function () {
+          function refreshCSS() {
+            var sheets = [].slice.call(document.getElementsByTagName("link"));
+            var head = document.getElementsByTagName("head")[0];
+            for (var i = 0; i < sheets.length; ++i) {
+              var elem = sheets[i];
+              var parent = elem.parentElement || head;
+              parent.removeChild(elem);
+              var rel = elem.rel;
+              if (
+                (elem.href && typeof rel != "string") ||
+                rel.length == 0 ||
+                rel.toLowerCase() == "stylesheet"
+              ) {
+                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, "");
+                elem.href =
+                  url +
+                  (url.indexOf("?") >= 0 ? "&" : "?") +
+                  "_cacheOverride=" +
+                  new Date().valueOf();
+              }
+              parent.appendChild(elem);
+            }
+          }
+          var protocol =
+            window.location.protocol === "http:" ? "ws://" : "wss://";
+          var address =
+            protocol + window.location.host + window.location.pathname + "/ws";
+          var socket = new WebSocket(address);
+          socket.onmessage = function (msg) {
+            if (msg.data == "reload") window.location.reload();
+            else if (msg.data == "refreshcss") refreshCSS();
+          };
+          if (
+            sessionStorage &&
+            !sessionStorage.getItem("IsThisFirstTime_Log_From_LiveServer")
+          ) {
+            console.log("Live reload enabled.");
+            sessionStorage.setItem("IsThisFirstTime_Log_From_LiveServer", true);
+          }
+        })();
+      } else {
+        console.error(
+          "Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading."
+        );
+      }
+      // ]]>
+    </script>
+    <!-- Code injected by live-server -->
+    <script>
+      // <![CDATA[  <-- For SVG support
+      if ("WebSocket" in window) {
+        (function () {
+          function refreshCSS() {
+            var sheets = [].slice.call(document.getElementsByTagName("link"));
+            var head = document.getElementsByTagName("head")[0];
+            for (var i = 0; i < sheets.length; ++i) {
+              var elem = sheets[i];
+              var parent = elem.parentElement || head;
+              parent.removeChild(elem);
+              var rel = elem.rel;
+              if (
+                (elem.href && typeof rel != "string") ||
+                rel.length == 0 ||
+                rel.toLowerCase() == "stylesheet"
+              ) {
+                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, "");
+                elem.href =
+                  url +
+                  (url.indexOf("?") >= 0 ? "&" : "?") +
+                  "_cacheOverride=" +
+                  new Date().valueOf();
+              }
+              parent.appendChild(elem);
+            }
+          }
+          var protocol =
+            window.location.protocol === "http:" ? "ws://" : "wss://";
+          var address =
+            protocol + window.location.host + window.location.pathname + "/ws";
+          var socket = new WebSocket(address);
+          socket.onmessage = function (msg) {
+            if (msg.data == "reload") window.location.reload();
+            else if (msg.data == "refreshcss") refreshCSS();
+          };
+          if (
+            sessionStorage &&
+            !sessionStorage.getItem("IsThisFirstTime_Log_From_LiveServer")
+          ) {
+            console.log("Live reload enabled.");
+            sessionStorage.setItem("IsThisFirstTime_Log_From_LiveServer", true);
+          }
+        })();
+      } else {
+        console.error(
+          "Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading."
+        );
+      }
+      // ]]>
+    </script>
+
+    <grammarly-desktop-integration
+      data-grammarly-shadow-root="true"
+    ></grammarly-desktop-integration>
+  </body>
+</html>

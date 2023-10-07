@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <style>
+      img[class="navbar-toggler-icon"] {
+        width: 40px;
+        height: 40px;
+        background-image: url(src/img/ic_baseline-close.svg);
+      }
+      p {
+        width: 40px;
+        height: 40px;
+        background-image: url(src/img/ic_baseline-close.svg);
+      }
+      span {
+        width: 40px;
+        height: 40px;
+        background-image: url(src/img/ic_baseline-close.svg);
+      }
+      h1 {
+        width: 40px;
+        height: 40px;
+        background-image: url(/src/img/ic_baseline-close.svg);
+      }
+      h2 {
+        width: 40px;
+        height: 40px;
+        background-image: url(/src/img/ic_baseline-close.svg);
+      }
+      .navbar-toggler,
+      .navbar-toggler:focus,
+      .navbar-toggler:active,
+      .navbar-toggler-icon:focus {
+        outline: none;
+        border: none;
+        box-shadow: none;
+      }
+      .navbar-toggler[aria-expanded="false"] svg {
+        width: 24px;
+        height: 24px;
+        background-image: url(src/img/mdi_menu.svg);
+      }
+
+      .navbar-toggler[aria-expanded="true"] svg {
+        width: 24px;
+        height: 24px;
+        background-image: url(src/img/ic_baseline-close.svg);
+      }
+    </style>
+    <title>TwoPresents</title>
+  </head>
+  <body>
+    <img />img
+    <p>p</p>
+    <span>span</span>
+
+    <h1>h1</h1>
+    <h2>h2</h2>
+    <svg>svg</svg>
+
+    <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+      <div class="bg-dark p-4">
+        <h5 class="text-body-emphasis h4">Collapsed content</h5>
+        <span class="text-body-secondary"
+          >Toggleable via the navbar brand.</span
+        >
+      </div>
+    </div>
+    <nav class="navbar bg-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <svg class="1navbar-toggler-icon">svg</svg>
+        </button>
+      </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg p-0" id="nav-bar">
+      <div
+        class="container-fluid w-100 h-100 mb-3 mb-lg-0 p-0 py-lg-3"
+        id="frame-1"
+      >
+        <a class="navbar-brand w-auto h-100 p-0 m-0" href="#">
+          <img
+            class="img-fluid object-fit-contain w-auto h-100"
+            id="tp-logo-3"
+            src="src/img/tp-logo-3.png"
+            alt="Your Logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler p-0 me-4"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <svg class="1navbar-toggler-icon">svg</svg>
+        </button>
+        <div class="navbar-collapse collapse text-center" id="navbarNav">
+          <ul
+            class="navbar-nav ms-auto gap-4 gap-lg-5"
+            id="auto-layout-horizontal2"
+          >
+            <li class="nav-item">
+              <a class="nav-link main-nav" href="#" id="how-it-works3"
+                >How It Works</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link main-nav" href="#" id="cards">Cards</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link main-nav" href="#" id="charities">Charities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link main-nav" href="#" id="gift-ideas"
+                >Gift Ideas</a
+              >
+            </li>
+          </ul>
+          <div class="d-flex border mt-4 mb-4"></div>
+
+          <ul class="navbar-nav align-items-center ms-auto gap-4 gap-lg-3">
+            <li class="nav-item">
+              <a class="nav-link text-center fields" href="#" id="log-in"
+                >Log In</a
+              >
+            </li>
+            <button class="primary-button fields" id="get-started">
+              GET STARTED
+            </button>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./js/infinite_scrolling_animation.js"
+    ></script>
+    <script type="text/javascript" src="./js/number_counter.js"></script>
+  </body>
+</html>
