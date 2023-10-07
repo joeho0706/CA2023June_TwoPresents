@@ -1,0 +1,24 @@
+.scroll-primary {
+  animation: scroll-primary 40s 0.5s linear infinite;
+}
+
+.scroll-secondary {
+  animation: scroll-secondary 40s 0.5s linear infinite;
+}
+
+@keyframes scroll-primary {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+@keyframes scroll-secondary {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
