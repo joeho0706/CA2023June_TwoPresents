@@ -1,0 +1,27 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon/Contributions" clip-path="url(#clip0_175_1193)">
+<circle id="Ellipse 149" cx="50" cy="50" r="49.25" stroke="#E0156A" stroke-width="1.5"/>
+<path id="Rectangle 648" d="M23 46V71.8C23 71.9105 23.0895 72 23.2 72H75.8C75.9105 72 76 71.9105 76 71.8V46" stroke="#E0156A" stroke-width="1.5"/>
+<path id="Vector 8" d="M23 46.2001L29.625 41.2001L32.9375 38.7001M76 46.2001L69.375 41.2001L66.0625 38.7001M58.5 33L56.125 31.2001L49.6205 26.2911C49.5492 26.2373 49.4508 26.2373 49.3795 26.2911L42.875 31.2001L40.5 33" stroke="#E0156A" stroke-width="1.5" stroke-linecap="round"/>
+<path id="Vector 9" d="M23 71L49.4175 59.0374C49.4699 59.0136 49.5301 59.0136 49.5825 59.0374L76 71" stroke="#E0156A" stroke-width="1.5"/>
+<path id="Vector 10" d="M76 47L49.8348 58.9623C49.7824 58.9863 49.7223 58.9865 49.6697 58.9629L23 47" stroke="#E0156A" stroke-width="1.5"/>
+<path id="Vector 11" d="M33 51V33.2C33 33.0895 33.0895 33 33.2 33H65.8C65.9105 33 66 33.0895 66 33.2V51" stroke="#E0156A" stroke-width="1.5" stroke-linecap="round"/>
+<g id="Group 39475">
+<g id="Rectangle 649">
+<mask id="path-7-inside-1_175_1193" fill="white">
+<rect x="44" y="39.8" width="12" height="12" rx="0.5"/>
+</mask>
+<rect x="44" y="39.8" width="12" height="12" rx="0.5" stroke="#E0156A" stroke-width="2.4" mask="url(#path-7-inside-1_175_1193)"/>
+</g>
+<path id="Vector 12" d="M45 44.8H55" stroke="#E0156A" stroke-width="1.2" stroke-linecap="round"/>
+<path id="Vector 13" d="M50 40.8V50.8" stroke="#E0156A" stroke-width="1.2" stroke-linecap="round"/>
+<path id="Vector 14" d="M48.7183 37.122L49.7844 39.1209C50.1544 39.8147 49.4064 40.5701 48.709 40.2069L46.3103 38.9576C45.7468 38.6641 45.7339 37.8623 46.2877 37.5508L47.6203 36.8013C48.0115 36.5812 48.5071 36.726 48.7183 37.122Z" stroke="#E0156A" stroke-linecap="round"/>
+<path id="Vector 15" d="M51.2817 36.7219L50.2156 38.7208C49.8456 39.4146 50.5936 40.17 51.291 39.8068L53.6897 38.5575C54.2532 38.2639 54.2661 37.4622 53.7123 37.1507L52.3797 36.4011C51.9885 36.1811 51.4929 36.3259 51.2817 36.7219Z" stroke="#E0156A" stroke-linecap="round"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_175_1193">
+<rect width="100" height="100" fill="white"/>
+</clipPath>
+</defs>
+</svg>
