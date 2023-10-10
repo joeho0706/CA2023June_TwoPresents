@@ -1,0 +1,26 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="48" height="48" fill="#EFF2F6"/>
+<g id="Homepage (Prototype)" clip-path="url(#clip0_128_611)">
+<rect width="1440" height="6095" transform="translate(-285 -5495)" fill="white"/>
+<g id="footer">
+<rect width="1440" height="747" transform="translate(-285 -147)" fill="#676665"/>
+<g id="Group 39467">
+<g id="Frame 18">
+<g id="Frame 16">
+<g id="Social Media Container">
+<g id="Social Media Icon Square/Facebook">
+<rect id="Social Media Icon" width="48" height="48" rx="8" fill="#F9D0E1"/>
+<path id="Facebook" d="M25.9514 36V25.0525H29.811L30.3888 20.786H25.9513V18.062C25.9513 16.8268 26.3115 15.985 28.1721 15.985L30.545 15.984V12.1681C30.1346 12.1162 28.7259 12 27.0873 12C23.6659 12 21.3236 13.9882 21.3236 17.6396V20.786H17.4541V25.0525H21.3236V35.9999H25.9514V36Z" fill="#E0156A"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_128_611">
+<rect width="1440" height="6095" fill="white" transform="translate(-285 -5495)"/>
+</clipPath>
+</defs>
+</svg>
