@@ -24,6 +24,10 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/vars.css" />
     <link rel="stylesheet" href="css/infinite_scrolling_animation.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
     <title>TwoPresents</title>
   </head>
   <body id="homepage-design-body">
@@ -388,6 +392,7 @@
                   </div>
                 </div>
                 <div class="card-title caption-1" id="users3">
+                  <span id="users-3-span" class="counter">20000</span>
                   <span
                     ><span id="users-3-span">+</span
                     ><span id="users-3-span2"> Users</span></span
@@ -566,9 +571,16 @@
                 <div class="card-title" id="hk-20-million-raised">
                   <span
                     ><span class="odometer" id="hk-20-million-raised-span"
-                      >HK$20+ million</span
-                    ><span class="caption-1" id="hk-20-million-raised-span2">
-                      Raised</span
+                      >HK$</span
+                    >
+                    <span
+                      class="odometer counter"
+                      id="hk-20-million-raised-span"
+                      >20</span
+                    >
+
+                    <span class="caption-1" id="hk-20-million-raised-span2">
+                      + million Raised</span
                     ></span
                   >
                 </div>
@@ -601,8 +613,10 @@
               >
                 <div class="card-title" id="_50-campaigns">
                   <span
-                    ><span class="odometer" id="_50-campaigns-span">50+</span
-                    ><span class="caption-1" id="_50-campaigns-span2">
+                    ><span class="odometer counter" id="_50-campaigns-span"
+                      >50</span
+                    ><span class="odometer">+</span>
+                    <span class="caption-1" id="_50-campaigns-span2">
                       <br />Campaigns</span
                     ></span
                   >
@@ -636,9 +650,9 @@
               >
                 <div class="odometer" id="_10-tons">
                   <span
-                    ><span id="_10-tons-span">10+ tons</span
-                    ><span id="_10-tons-span2"> </span
-                  ></span>
+                    ><span id="_10-tons-span" class="counter">10</span
+                    ><span id="_10-tons-span">+ tons</span></span
+                  >
                 </div>
                 <div class="caption-2" id="gift-waste-saved">
                   gift waste<br />saved
@@ -648,234 +662,229 @@
           </div>
         </div>
       </div>
-      <!-- matin will create-->
-      <div class="bottom-part">
-        <div class="container">
-          <h1>Our Charity</h1>
-          <div class="row row-cols-2 row-cols-md-4">
-            <div class="col">
-              <img src="./image/wwf.png" class="img-thumbnail" alt="wwf" />
+    </div>
+    <!-- matin will create-->
+    <div class="bottom-part">
+      <div class="container">
+        <h1>Our Charities</h1>
+        <div class="row row-cols-2 row-cols-lg-4">
+          <div class="col">
+            <img src="./image/wwf.png" class="img-thumbnail" alt="wwf" />
+          </div>
+          <div class="col">
+            <img
+              src="./image/box of hope.jpeg"
+              class="img-thumbnail"
+              alt="box of hope"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="./image/Clean Air Network.jpeg"
+              class="img-thumbnail"
+              alt="clean air network"
+            />
+          </div>
+          <div class="col">
+            <img src="./image/pok oi .png" class="img-thumbnail" alt="Pok Oi" />
+          </div>
+        </div>
+
+        <div class="row row-cols-2 row-cols-lg-4">
+          <div class="col">
+            <img
+              src="./image/habitat for humanity.png"
+              class="img-thumbnail"
+              alt="habitat for humanity"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="./image/hands on .png"
+              class="img-thumbnail"
+              alt="hands on"
+            />
+          </div>
+          <div class="col">
+            <img src="./image/hkdr .png" class="img-thumbnail" alt="HKDR" />
+          </div>
+          <div class="col">
+            <img
+              src="./image/cancer fund .png"
+              class="img-thumbnail"
+              alt="Cancer Fund"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="btn-section">
+        <button type="button" class="btn btn-outline-danger">
+          See All Charities
+        </button>
+      </div>
+
+      <!-- Carousel -->
+      <h1>What Our Users Say</h1>
+      <div
+        id="carouselExampleControlsNoTouching"
+        class="carousel slide"
+        data-bs-touch="false"
+        data-bs-interval="false"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="quote">
+              <h3>
+                “At our wedding, we chose Twopresents so that our guests can
+                choose to donate to the organisations of our choices. I hope my
+                kid would be mindful of the beautiful planet that we’re living
+                in, and the whole concept of gift-giving can be thought in a
+                very different way.”
+              </h3>
             </div>
-            <div class="col">
+            <div class="writer">
               <img
-                src="./image/box of hope.jpeg"
-                class="img-thumbnail"
-                alt="box of hope"
+                src="./image/Robynn Yip.png"
+                alt="..."
+                width="100px"
+                class="writer-photo"
               />
-            </div>
-            <div class="col">
-              <img
-                src="./image/Clean Air Network.jpeg"
-                class="img-thumbnail"
-                alt="clean air network"
-              />
-            </div>
-            <div class="col">
-              <img src="./image/pok oi .png" class="img-thumbnail" alt="Pok Oi" />
+              <p>Robynn Yip</p>
+              <p>Singer Songwriter</p>
             </div>
           </div>
-  
-          <div class="row row-cols-2 row-cols-md-4">
-            <div class="col">
-              <img
-                src="./image/habitat for humanity.png"
-                class="img-thumbnail"
-                alt="habitat for humanity"
-              />
+          <div class="carousel-item">
+            <div class="quote">
+              <h3>
+                “At our wedding, we chose Twopresents so that our guests can
+                choose to donate to the organisations of our choices. I hope my
+                kid would be mindful of the beautiful planet that we’re living
+                in, and the whole concept of gift-giving can be thought in a
+                very different way.”
+              </h3>
             </div>
-            <div class="col">
+            <div class="writer">
               <img
-                src="./image/hands on .png"
-                class="img-thumbnail"
-                alt="hands on"
+                src="./image/Robynn Yip.png"
+                alt="..."
+                width="100px"
+                class="writer-photo"
               />
+              <p>Robynn Yip</p>
+              <p>Singer Songwriter</p>
             </div>
-            <div class="col">
-              <img src="./image/hkdr .png" class="img-thumbnail" alt="HKDR" />
+          </div>
+          <div class="carousel-item">
+            <div class="quote">
+              <h3>
+                “At our wedding, we chose Twopresents so that our guests can
+                choose to donate to the organisations of our choices. I hope my
+                kid would be mindful of the beautiful planet that we’re living
+                in, and the whole concept of gift-giving can be thought in a
+                very different way.”
+              </h3>
             </div>
-            <div class="col">
+            <div class="writer">
               <img
-                src="./image/cancer fund .png"
-                class="img-thumbnail"
-                alt="Cancer Fund"
+                src="./image/Robynn Yip.png"
+                alt="..."
+                width="100px"
+                class="writer-photo"
               />
+              <p>Robynn Yip</p>
+              <p>Singer Songwriter</p>
             </div>
           </div>
         </div>
-        <div class="btn-section">
-          <button type="button" class="btn btn-outline-danger">
-            See All Charities
-          </button>
-        </div>
-  
-        <!-- Carousel -->
-        <h1>What Our Users Say</h1>
-        <div
-          id="carouselExampleControlsNoTouching"
-          class="carousel slide"
-          data-bs-touch="false"
-          data-bs-interval="false"
+        <button
+          class="carousel-control-prev carousel-btn-bottom"
+          type="button"
+          data-bs-target="#carouselExampleControlsNoTouching"
+          data-bs-slide="prev"
         >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="quote">
-                <p>
-                  “At our wedding, we chose Twopresents so that our guests can
-                  choose to donate to the organisations of our choices. I hope my
-                  kid would be mindful of the beautiful planet that we’re living
-                  in, and the whole concept of gift-giving can be thought in a
-                  very different way.”
-                </p>
-              </div>
-              <div class="writer">
-                <img
-                  src="./image/Robynn Yip.png"
-                  alt="..."
-                  width="100px"
-                  class="writer-photo"
-                />
-                <p>Robynn Yip</p>
-                <p>Singer Songwriter</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="quote">
-                <p>
-                  “At our wedding, we chose Twopresents so that our guests can
-                  choose to donate to the organisations of our choices. I hope my
-                  kid would be mindful of the beautiful planet that we’re living
-                  in, and the whole concept of gift-giving can be thought in a
-                  very different way.”
-                </p>
-              </div>
-              <div class="writer">
-                <img
-                  src="./image/Robynn Yip.png"
-                  alt="..."
-                  width="100px"
-                  class="writer-photo"
-                />
-                <p>Robynn Yip</p>
-                <p>Singer Songwriter</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="quote">
-                <p>
-                  “At our wedding, we chose Twopresents so that our guests can
-                  choose to donate to the organisations of our choices. I hope my
-                  kid would be mindful of the beautiful planet that we’re living
-                  in, and the whole concept of gift-giving can be thought in a
-                  very different way.”
-                </p>
-              </div>
-              <div class="writer">
-                <img
-                  src="./image/Robynn Yip.png"
-                  alt="..."
-                  width="100px"
-                  class="writer-photo"
-                />
-                <p>Robynn Yip</p>
-                <p>Singer Songwriter</p>
-              </div>
-            </div>
+          <i
+            class="bi-arrow-left-circle"
+            style="color: black; font-size: 50px"
+          ></i>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next carousel-btn-bottom"
+          type="button"
+          data-bs-target="#carouselExampleControlsNoTouching"
+          data-bs-slide="next"
+        >
+          <i
+            class="bi-arrow-right-circle"
+            style="color: black; font-size: 50px"
+          ></i>
+        </button>
+      </div>
+      <div class="container subscribe">
+        <div class="row">
+          <div class="col-12">
+            <h1>Save Twopresents For Your Next Event!</h1>
           </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleControlsNoTouching"
-            data-bs-slide="prev"
-          >
-            <i
-              class="bi-arrow-left-circle"
-              style="color: black; font-size: 50px"
-            ></i>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleControlsNoTouching"
-            data-bs-slide="next"
-          >
-            <i
-              class="bi-arrow-right-circle"
-              style="color: black; font-size: 50px"
-            ></i>
-          </button>
-        </div>
-        <div class="container subscribe">
-          <div class="row">
-            <div class="col-12">
-              <h1>Save Twopresents For Your Next Event!</h1>
+          <div class="col-md-9" style="margin: auto">
+            <form>
+              <input
+                type="text"
+                id="disabledTextInput"
+                class="form-control"
+                placeholder="Email Address"
+              />
+            </form>
+          </div>
+          <div class="col-lg-3">
+            <div class="btn-section">
+              <button type="button" class="btn btn-danger">Remind Me</button>
             </div>
-            <div class="col-md-9" style="margin: auto">
-              <form>
-                <input
-                  type="text"
-                  id="disabledTextInput"
-                  class="form-control"
-                  placeholder="Email Address"
-                />
-              </form>
-            </div>
-            <div class=" col-md-3">
-              <div class="btn-section">
-                <button type="button" class="btn btn-danger">
-                  Remind Me
-                </button>
-              </div>
           </div>
         </div>
       </div>
-      <div class="feature">
-        <h5>Featured In</h5>
+      <!-- <div class="feature"> -->
         <div class="container">
-          <div class="row row-cols-1 row-cols-md-4">
+          <h4>FEATURED IN</h4>
+          <div class="feature row row-cols-1 row-cols-lg-4">
+            <div class="col">
+              <img src="./image/scmp.png" class="img-thumbnail" alt="scmp" />
+            </div>
             <div class="col">
               <img
-                src="./image/caringCompany.png"
+                src="./image/The standard.png"
                 class="img-thumbnail"
-                alt="wwf"
+                alt="The Standard"
               />
             </div>
             <div class="col">
               <img
-                src="./image/caringCompany.png"
+                src="./image/Living.png"
                 class="img-thumbnail"
-                alt="box of hope"
+                alt="Living"
               />
             </div>
             <div class="col">
               <img
-                src="./image/caringCompany.png"
+                src="./image/southside.png"
                 class="img-thumbnail"
-                alt="clean air network"
-              />
-            </div>
-            <div class="col">
-              <img
-                src="./image/caringCompany.png"
-                class="img-thumbnail"
-                alt="Pok Oi"
+                alt="Southside"
               />
             </div>
           </div>
         </div>
       </div>
-  <!-- footer -->
+      <!-- footer -->
       <footer>
         <div class="container">
           <div class="row">
             <div class="col-lg-5 col-xs-6">
               <div class="single-box">
-                <div class="follow-us ">
+                <div class="follow-us">
                   <h2>Follow Us</h2>
                   <p class="socials">
-                    <i class="fa fa-facebook"></i>
-                    <i class="fa fa-dribbble"></i>
-                    <i class="fa fa-pinterest"></i>
+                    <img src="./image/Facebook.svg" alt="Facebook" />
+                    <img src="./image/Instagram.svg" alt="Instagram" />
+                    <img src="./image/YouTube.svg" alt="Youtube" />
                   </p>
                 </div>
                 <div class="support-us">
@@ -893,7 +902,7 @@
                   <li><a href="#">Press</a></li>
                   <li><a href="#">FAQs</a></li>
                   <li><a href="#">Contact Us</a></li>
-  
+
                   <div class="card-area">
                     <i class="fa fa-cc-visa"></i>
                     <i class="fa fa-cc-mastercard"></i>
@@ -906,56 +915,56 @@
                 </ul>
               </div>
             </div>
-        </div>
-        <!-- Section: Links  -->
-  
-        <!-- Copyright -->
-        <!-- <div class="p-4"> -->
-        <div class="sponsor container p-4">
-          <div class="row row-cols-1 row-cols-md-4">
-            <div class="col">
-              <img
-                src="./image/caringCompany.png"
-                class="img-thumbnail"
-                alt="wwf"
-              />
-            </div>
-            <div class="col">
-              <img
-                src="./image/caringCompany.png"
-                class="img-thumbnail"
-                alt="box of hope"
-              />
-            </div>
-            <div class="col">
-              <img
-                src="./image/caringCompany.png"
-                class="img-thumbnail"
-                alt="clean air network"
-              />
-            </div>
-            <div class="col">
-              <img
-                src="./image/caringCompany.png"
-                class="img-thumbnail"
-                alt="Pok Oi"
-              />
-            </div>
           </div>
-          <!-- </div> -->
-        </div>
-        <p class="copyright">Copyright © Twopresents 2023</p>
+          <!-- Section: Links  -->
 
+          <!-- Copyright -->
+          <!-- <div class="p-4"> -->
+          <div class="sponsor container p-4">
+            <div class="row row-cols-1 row-cols-lg-4">
+              <div class="col">
+                <img
+                  src="./image/caringCompany.png"
+                  class="img-thumbnail"
+                  alt="wwf"
+                />
+              </div>
+              <div class="col">
+                <img
+                  src="./image/Sie .jpeg"
+                  class="img-thumbnail"
+                  alt="box of hope"
+                />
+              </div>
+              <div class="col">
+                <img
+                  src="./image/The Yeh Family Philanthropy.png"
+                  class="img-thumbnail"
+                  alt="clean air network"
+                />
+              </div>
+              <div class="col">
+                <img
+                  src="./image/Dbs .png"
+                  class="img-thumbnail"
+                  alt="Pok Oi"
+                />
+              </div>
+            </div>
+            <!-- </div> -->
+          </div>
+          <p class="copyright">Copyright © Twopresents 2023</p>
         </div>
         <!-- Copyright -->
       </footer>
       <!-- Footer -->
-      </div>
- 
-  <script
-    src="https://kit.fontawesome.com/7da664cad6.js"
-    crossorigin="anonymous"
-  ></script>
+    </div>
+    
+
+    <script
+      src="https://kit.fontawesome.com/7da664cad6.js"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
@@ -967,5 +976,14 @@
     ></script>
     <script type="text/javascript" src="./js/number_counter.js"></script>
     <!-- Code injected by live-server -->
+    <!-- Counter plugin-->
+    <script>
+      $(document).ready(function () {
+        $(".counter").counterUp({
+          delay: 10,
+          time: 1200,
+        });
+      });
+    </script>
   </body>
 </html>
