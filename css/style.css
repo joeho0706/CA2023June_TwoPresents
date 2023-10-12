@@ -831,6 +831,13 @@ h4 {
 #get-started-body #frame-79 {
   background-color: var(--primary-content-bg-color);
 }
+@media (min-width: 576px) {
+  #get-started-body #nav-bar {
+    max-width: 1320px;
+    height: auto;
+  }
+}
+
 @media (max-witth: 575px) {
 }
 @media (min-width: 576px) {
